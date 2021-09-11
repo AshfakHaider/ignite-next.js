@@ -13,8 +13,39 @@ a {
   box-sizing: border-box;
 }
 
+/* Global Styles start */
+
+.minimal-heading {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 13px;
+  line-height: 1rem;
+}
+.donatebtn{
+  padding: 17px 20px;
+  border: none;
+  margin-top: 10px;
+  background:linear-gradient(45deg,#ea7325 1%,#fcc005 100%);
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.style-font{
+  font-family: MonteCarlo,cursive;
+  font-weight: 400;
+  font-size: 4rem;
+}
+.main-heading{
+  font-weight: 800;
+  line-height: 5rem;
+}
+
+/* Global Styles end */
+
 /* navbar styles start */
-.app-bar{
+
+.app-bar {
   padding-left: 35px;
   padding-right: 35px;
   position: fixed;
@@ -22,40 +53,56 @@ a {
   left: 0;
   right: 0;
   z-index: 1030;
-
 }
+
 .nav-link {
   margin: 0px 0px 0px 15px;
   font-size: 1rem;
   font-weight: 700;
   color: #000;
 }
+
 .nav-link:hover {
   border-bottom: 2px solid #F7941D;
 }
+
 .nav-item {
   margin: 0px 0px 0px 10px;
   font-size: 1rem;
   font-weight: 700;
-  color: #000 !important;
-}
-.navbar-light .navbar-nav .nav-link {
-  color: #000 !important;
+  color: #fff !important;
 }
 
-.dropdown-menu{
+.navbar-light .navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+.dropdown-menu {
   background-color: #000 !important;
   color: #fff !important;
 }
-.dropdown-item{
+
+.dropdown-item {
   color: #fff !important;
   padding: 8px 15px 6px 15px !important;
 }
-.dropdown-item:hover{
+
+.dropdown-item:hover {
   background-color: #F7941D !important;
 }
-.nav_black{
-  background-color:rgba(47,46,50,.90);
+
+.nav_black {
+  background-color: rgba(47, 46, 50, .90);
   opacity: 1;
-} 
+}
+
 /* navbar styles end */
+
+/* hero styles start */
+
+.carousel-caption {
+  position: absolute;
+  top: 40% !important;
+}
+
+/* hero styles end */
