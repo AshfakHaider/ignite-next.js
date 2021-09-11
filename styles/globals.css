@@ -101,10 +101,9 @@ a {
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-  .app-bar {
-    display: none;
-  }
-}
+
+  
+ }
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
@@ -112,9 +111,7 @@ a {
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .app-bar {
-    display: none;
-  }
+  
 }
 
 /* navbar styles end */
