@@ -30,7 +30,7 @@ const NavigationBar = () => {
     return (
         <div className={`app-bar ${show && 'nav_black'}`} >
             <Navbar collapseOnSelect expand="lg"  >
-                <Navbar.Brand style={{ width:show?'80px':'125px', height: show?'65px':'100px' }} href="#home">
+                <Navbar.Brand style={{ width:show?'80px':'125px', height: show?'65px':'100px' }} className='logo' href="#home">
                     <Image
                         src={logo}
                         alt="logo"

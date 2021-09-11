@@ -21,24 +21,28 @@ a {
   letter-spacing: 13px;
   line-height: 1rem;
 }
-.donatebtn{
+
+.donatebtn {
   padding: 17px 20px;
   border: none;
   margin-top: 10px;
-  background:linear-gradient(45deg,#ea7325 1%,#fcc005 100%);
+  background: linear-gradient(45deg, #ea7325 1%, #fcc005 100%);
   color: white;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 1px;
 }
-.style-font{
-  font-family: MonteCarlo,cursive;
+
+.style-font {
+  font-family: MonteCarlo, cursive;
   font-weight: 400;
   font-size: 4rem;
 }
-.main-heading{
+
+.main-heading {
   font-weight: 800;
   line-height: 5rem;
+  font-size: 60px;
 }
 
 /* Global Styles end */
@@ -96,6 +100,23 @@ a {
   opacity: 1;
 }
 
+@media (min-width: 481px) and (max-width: 767px) {
+  .app-bar {
+    display: none;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .app-bar {
+    display: none;
+  }
+}
+
 /* navbar styles end */
 
 /* hero styles start */
@@ -103,6 +124,36 @@ a {
 .carousel-caption {
   position: absolute;
   top: 40% !important;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .main-heading{
+    font-size: 35px;
+    line-height: 3rem;
+    font-weight: 700;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .carousel-caption {
+    display: none;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .carousel-caption {
+    display: none;
+  }
 }
 
 /* hero styles end */
