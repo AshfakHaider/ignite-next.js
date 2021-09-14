@@ -176,3 +176,23 @@ a {
 }
 
 /* hero styles end */
+
+/* hero bottom start */
+
+
+
+.title {
+  font-weight: 700;
+  line-height: 23.8px;
+  font-size: 24px;
+}
+
+.title:hover {
+  color: #fcc005;
+}
+
+.description {
+  color: '#888888'
+}
+
+/* hero bottom end */
