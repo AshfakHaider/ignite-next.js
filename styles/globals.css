@@ -483,3 +483,17 @@ a {
 }
 
 /* help section end */
+
+
+/* featurd section start */
+.featured{
+  margin: 90px 0px;
+}
+.featured-image img{
+  width: 200px;
+  height: 100px;
+}
+.featured-image{
+    margin: 25px 0;
+}
+/* featurd section end */

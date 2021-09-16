@@ -6,9 +6,12 @@ import { SSRProvider } from '@react-aria/ssr';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <SSRProvider>
-      <Component {...pageProps} />
-    </SSRProvider>
+    
+      <SSRProvider>
+        <Component {...pageProps} />
+      </SSRProvider>
+   
+
   )
 }
 
