@@ -150,6 +150,10 @@ a {
 
 /* navbar styles end */
 
+
+
+
+
 /* hero styles start */
 
 .carousel-caption {
@@ -189,19 +193,52 @@ a {
 
 /* hero styles end */
 
-/* hero bottom start */
 
-.title {
+
+
+/* ______-_-_-_____--_-_________-_-_____-________-_-_--_____ */
+
+
+
+/* hero bottom start */
+.heroBottom{
+  margin: 30px 0px;
+
+}
+.heroBottom_number{
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 50px;
+  color: #fcc005;
+  letter-spacing: 0.5px;
+}
+.heroBottom_title {
   font-weight: 700;
   line-height: 23.8px;
   font-size: 24px;
+  margin: 10px 0px;
 }
 
-.title:hover {
+.heroBottom_title:hover {
   color: #fcc005;
 }
 
+.heroBottom_description{
+  color: #888888;
+  margin: 10px 0;
+}
+
+
+
 /* hero bottom end */
+
+
+/* ______-_-_-_____--_-_________-_-_____-________-_-_--_____ */
+
+
+
+
+
 
 /* about section start  */
 
@@ -274,5 +311,51 @@ a {
 .cause{
   margin: 90px 0px;
 }
+.cause-card{
+  box-shadow: 0 16px 32px rgb(0 0 0 / 10%);
+  border-radius: 1rem;
+}
+.cause-block{
+  padding: 0px 5px;
+}
+.cause-info h4{
+  font-size: 20px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+.cause-info p{
+  font-size: 14px;    
+  line-height: 22px;
+  color: gray;
+  margin-bottom: 20px;
+}
+.cause-info{
+  padding: 15px 15px;
+}
 
+.cause-card-img img{
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.progress{
+  height: 5px !important;
+}
+.divider{
+  border-left: 1px solid #bbb9b9;
+  height: 35px;
+  margin: 0px 15px 0 15px;
+  position: relative;
+  bottom: 10px;
+}
+.progress-bar{
+  background-color: #fcc005 !important;
+}
+
+.money-raising h4{
+  font-size: 20px;
+  position: relative;
+  bottom: 4px;
+  left: 2px;
+}
 /* cause section end */

@@ -5,17 +5,19 @@ import Hero from './components/Hero/Hero';
 import HeroBottom from './components/HeroBottom/HeroBottom';
 import NavigationBar from './components/Navbar/NavigationBar';
 import NavMobile from './components/Navbar/NavMobile';
-
+import { causeData } from './data/fakedata';
 
 const IndexView = () => {
     return (
         <>
-            <NavigationBar/>
-            <NavMobile/>
-            <Hero/>
-            <HeroBottom/>
-            <About/>
-            <Causes/>
+            <NavigationBar />
+            <NavMobile />
+            <Hero />
+            <HeroBottom />
+            <About />
+            <Causes
+                data={causeData}
+            />
         </>
     );
 };
