@@ -362,3 +362,53 @@ a {
   left: 2px;
 }
 /* cause section end */
+
+
+/* mission section start */
+.mission {
+  background-image: url(http://html.efforttech.com/html/varna-charity/images/main-slider/image-3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 70px 0px 0px 0px;
+  background-attachment: fixed;
+  color: white;
+}
+
+.inner-mission {
+  padding: 100px 20px 100px 20px;
+}
+.countt {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  height: 100px;
+  padding: 25px 25px 0 25px;
+}
+
+.counter-box {
+  background-color: #58565630;
+  padding: 10px 40px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px 20px 40px 20px;
+}
+.counter-bottom{
+  padding: 0 25px 25px 25px;
+  position: relative;
+  bottom: 10px;
+  
+}
+.counter-icon{
+  width: 50px;
+  height: 70px;
+  color: #FCC005;
+  margin: 12px 0 0 0;
+}
+.counter-bottom h4{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+/* mission section end */

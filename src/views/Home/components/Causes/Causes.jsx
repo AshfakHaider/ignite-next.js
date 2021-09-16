@@ -13,7 +13,7 @@ const Causes = ({ data }) => {
                     <h2 className='headings'>Raise your <span className='style-font'>funds</span> for a <span className='style-font'> cause</span>  that <br /> you care</h2>
                 </div>
                 <div >
-                    <Grid container  > 
+                    <Grid container> 
                         {data.map((items) => (
                             <Grid item xs={12} sm={6} md={4} lg={4} key={items.id}>
                                 <CauseDetails key={items.id} item={items} />

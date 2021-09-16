@@ -1,7 +1,7 @@
 import cause1 from '../../../assets/images/cause-1.jpg';
 import cause2 from '../../../assets/images/cause-2.jpg';
 import cause3 from '../../../assets/images/cause-3.jpg';
-
+import { faSchool,faUserGraduate,faLightbulb,faHandsHelping} from '@fortawesome/free-solid-svg-icons';
 
 export const causeData = [
     {
@@ -33,5 +33,35 @@ export const causeData = [
         goal: 11000,
         image:cause3
 
+    },
+]
+
+
+
+export const couterData = [
+    {
+        id: "1",
+        title: "School",
+        icon:faSchool,
+        number:1
+    },
+    {
+        id: "2",
+        title: "Students",
+        icon:faUserGraduate,
+        number:75
+    },
+    {
+        id: "3",
+        title: "Projects",
+        icon:faLightbulb,
+        number:6
+    },
+    {
+        id: "4",
+        title: "Changemaker",
+        icon:faHandsHelping,
+        number:23,
+        suffix:'k+'
     },
 ]
