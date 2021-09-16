@@ -34,5 +34,4 @@ export const causeData = [
         image:cause3
 
     },
-
 ]

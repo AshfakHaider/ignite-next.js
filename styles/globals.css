@@ -289,7 +289,7 @@ a {
     padding-left: 0px;
   }
   .about-inner {
-    padding: 60px 0px 60px 0px
+    padding: 40px 0px 40px 0px
   }
   
 }
@@ -302,7 +302,10 @@ a {
     padding-left: 0px;
   }
   .about-inner {
-    padding: 60px 0px 60px 0px
+    padding: 40px 0px 40px 0px
+  }
+  .figure-1 img{
+    width: 80%;
   }
 }
 

@@ -6,7 +6,7 @@ const CauseDetails = ({ item }) => {
    const now = 60;
 
     return (
-        <div className="cause-block">
+        <div className="cause-block me-md-4 me-0">
             <div className='cause-card' style={{ margin: '35px 0px ' }}>
                 <div className="cause-card-img">
                     <Image src={item.image} alt="" />

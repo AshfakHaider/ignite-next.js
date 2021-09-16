@@ -25,6 +25,10 @@ export default function Home() {
         <script async src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
           integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
           crossOrigin="anonymous"></script>
+        <script async src="js/jquery-1.11.0.min.js"></script>
+        <script async src="js/bootstrap.min.js"></script>
+        <script async src="js/wow.min.js"></script>
+        
         <script async src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
         <script async src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
       </Head>
