@@ -26,7 +26,7 @@ const About = () => {
                         <div className='col-md-6 ps-md-4 ps-0' >
                             <div className="about-inner-description">
                                 <h4 style={{ color: '#333333' }} className='minimal-heading'>ABOUT US</h4>
-                                <h2 className='headings'>Welcome to <span className='style-font'>our</span> <br /> Varana Charity <span className='style-font'>please raise your</span> helping hand </h2>
+                                <h2 className='headings'>Welcome to <span className='style-font'>our</span> <br /> Varana Charity <span className='style-font'>please raise <br /> your</span> helping hand </h2>
                                 <div className="separator"></div>
                                 <p className='global_description'
                                     style={{ color: "#888888", margin: '25px 0' }}

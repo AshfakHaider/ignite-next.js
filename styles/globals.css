@@ -241,7 +241,7 @@ a {
 
 .figure-2 {
   position: absolute;
-  right: -20px;
+  right: -5px;
   top: -20px;
   z-index: 9;
 }
@@ -399,8 +399,7 @@ a {
 }
 
 .counter-icon {
-  width: 50px;
-  height: 70px;
+  font-size: 50px;
   color: #FCC005;
   margin: 12px 0 0 0;
 }
@@ -449,8 +448,7 @@ a {
 }
 
 .help-icon {
-  width: 60px;
-  height: 70px;
+  font-size: 50px;
   color: #888888;
 }
 
@@ -497,3 +495,36 @@ a {
     margin: 25px 0;
 }
 /* featurd section end */
+
+
+/* donation section start */
+.donation {
+  background-image: linear-gradient( rgb(7 7 7 / 86%), rgb(0 0 0 / 91%)), url(http://html.efforttech.com/html/varna-charity/images/background/2.jpg);
+  margin: 110px 0px 70px 0px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+.inner-contents-donation {
+  padding: 80px 0px 50px 0px;
+  color: white;
+}
+
+
+
+.inner-contents-donation {
+  padding: 80px 0px 50px 0px;
+  color: white;
+}
+
+.donation-form {
+  margin: 30px 0px  10px 0;
+  padding: 45px 40px 45px 45px;
+  border: 1px solid gray;
+  border-radius: 7px;
+}
+
+
+/* donation section end */

@@ -131,3 +131,21 @@ export const featured = [
         img:featured1
     }
 ]
+export const currencies = [
+    {
+        value: 'USD',
+
+    },
+    {
+        value: 'EUR',
+
+    },
+    {
+        value: 'BTC',
+
+    },
+    {
+        value: 'JPY',
+
+    },
+];
