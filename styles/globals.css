@@ -1,17 +1,5 @@
-html, body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
 
-* {
-  box-sizing: border-box;
-}
 
 /* Global Styles start */
 
@@ -402,6 +390,8 @@ a {
   font-size: 50px;
   color: #FCC005;
   margin: 12px 0 0 0;
+  width: 140px;
+  height: 50px;
 }
 
 .counter-bottom h4 {
@@ -447,9 +437,17 @@ a {
   font-size: 16px;
 }
 
+.help h5{
+  font-size: 20px;
+  font-weight: 800;
+}
+
+
 .help-icon {
   font-size: 50px;
   color: #888888;
+  width: 50px;
+  height: 50px;
 }
 
 .help-icon:hover {
@@ -528,3 +526,23 @@ a {
 
 
 /* donation section end */
+
+/* achivement section start */
+.achivements{
+  margin: 90px 0px;
+}
+.achivement-image img{
+  width: 200px;
+  height: 100px;
+  text-align: center;
+}
+.achivement-image{
+  margin: 25px 0;
+}
+/* achivements sectiion end */
+
+
+/* volunteer section start */
+
+
+/* volunteer section end */

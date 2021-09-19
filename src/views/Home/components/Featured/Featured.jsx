@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Grid } from '@material-ui/core';
+import { Grid, Button } from '@material-ui/core';
 import FeaturedDetails from './FeaturedDetails';
 
 
@@ -15,6 +15,7 @@ const Featured = ({ data }) => {
 
     return (
         <div className='featured text-center'>
+            <h6 className='minimal-heading'>FEATURED</h6>
             <h2 className='headings'>We Are <span className='style-font'>Got Featured</span> By</h2>
             <Grid container style={{ margin: '50px 0' }}>
                 {data.slice(0, visible).map((items) => (
@@ -27,20 +28,26 @@ const Featured = ({ data }) => {
             </Grid>
             {
                 data.length > visible ?
-                    <button
+                    <Button
+                        variant='contained'
+                        color='primary'
                         className='donatebtn'
                         onClick={loadMore}
+                        style={{color:'#FFF'}}
                     >
                         See More
-                    </button>
+                    </Button>
 
                     :
-                    <button
+                    <Button
+                        variant='contained'
+                        color='primary'
                         onClick={decrease}
                         className='donatebtn'
+                        style={{color:'#FFF'}}
                     >
                         See Less
-                    </button>
+                    </Button>
 
             }
         </div>

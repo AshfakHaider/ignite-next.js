@@ -9,7 +9,7 @@ const Help = () => {
             <div className="d-flex flex-wrap">
                 <div className="col-md-6" style={{padding:'0'}}>
                     <div className="inner-content-help">
-                        <h4 className="minimal-heading">
+                        <h4 className="minimal-heading mb-2">
                             WHO WE ARE
                         </h4>
                         <h2 className='headings'>We <span className='style-font'>help</span> thousand <br /> of children to get their <br /> <span className='style-font'>education</span></h2>
@@ -39,7 +39,7 @@ const Help = () => {
                         </div>
                         <div className="d-flex" style={{marginTop:'15px'}} >
                             <FontAwesomeIcon icon={faGlobe} className='help-icon' />
-                            <div style={{marginLeft:'30px'}}>
+                            <div style={{marginLeft:'20px'}}>
                                 <h5>Give Scholarship</h5>
                                 <p className="global_description">
                                     Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence

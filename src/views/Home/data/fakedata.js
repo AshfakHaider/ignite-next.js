@@ -9,9 +9,12 @@ import featured5 from '../../../assets/images/VOA_logo (1).png';
 import featured6 from '../../../assets/images/logo-bottom.png';
 import featured7 from '../../../assets/images/Logo-Red-272X90-.png';
 import featured8 from '../../../assets/images/forbes.png';
-import featured9 from '../../../assets/images/forbes.png';
-import featured10 from '../../../assets/images/forbes.png';
-import featured11 from '../../../assets/images/forbes.png';
+import one from '../../../assets/images/one.png'
+import two from '../../../assets/images/two.png'
+import three from '../../../assets/images/three.png'
+import four from '../../../assets/images/four.png'
+import five from '../../../assets/images/five.png'
+import six from '../../../assets/images/six.png'
 
 
 import { faSchool,faUserGraduate,faLightbulb,faHandsHelping} from '@fortawesome/free-solid-svg-icons';
@@ -131,21 +134,31 @@ export const featured = [
         img:featured1
     }
 ]
-export const currencies = [
-    {
-        value: 'USD',
 
+
+
+export const achieve = [
+    {
+        id:1,
+        image:one
     },
     {
-        value: 'EUR',
-
+        id:2,
+        image:two
     },
     {
-        value: 'BTC',
-
+        id:3,
+        image:three
     },
     {
-        value: 'JPY',
-
+        id:4,
+        image:four
     },
-];
+    {
+        id:5,
+        image:five
+    }, {
+        id:6,
+        image:six
+    },
+]

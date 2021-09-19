@@ -3,7 +3,7 @@ import { Container, Grid } from '@material-ui/core';
 
 
 const HeroBottom = () => {
-  
+
     return (
         <Container className = "heroBottom" >
             <Grid container spacing={4} >
