@@ -58,7 +58,7 @@ const NavMobile = () => {
                     >Donate</Nav.Link>
                     <Button
                         variant='contained'
-                        color='secondary'
+                        color='primary'
                     >
                         Sponsor A Child
                     </Button>

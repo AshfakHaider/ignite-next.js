@@ -16,6 +16,8 @@ import four from '../../../assets/images/four.png'
 import five from '../../../assets/images/five.png'
 import six from '../../../assets/images/six.png'
 
+import event1 from '../../../assets/images/event-1.jpg'
+
 
 import { faSchool,faUserGraduate,faLightbulb,faHandsHelping} from '@fortawesome/free-solid-svg-icons';
 
@@ -161,4 +163,32 @@ export const achieve = [
         id:6,
         image:six
     },
+]
+
+
+export const eventData =[
+    {
+        id:1,
+        title:"Gear Up For Giving",
+        time:"5.30pm - 7.30pm",
+        location:"Uttara,Dhaka",
+        description:'Bring to the table win-win survival strategies to ensure proactive domination.',
+        image:event1
+    },
+    {
+        id:2,
+        title:"Gear Up For Giving",
+        time:"5.30pm - 7.30pm",
+        location:"Uttara,Dhaka",
+        description:'Bring to the table win-win survival strategies to ensure proactive domination.',
+        image:event1
+    },
+    {
+        id:3,
+        title:"Gear Up For Giving",
+        time:"5.30pm - 7.30pm",
+        location:"Uttara,Dhaka",
+        description:'Bring to the table win-win survival strategies to ensure proactive domination.',
+        image:event1
+    }
 ]
