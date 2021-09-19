@@ -13,7 +13,7 @@ const Footer = () => {
                 <div className="container">
                     <div className="d-flex flex-wrap">
                         <div className="col-md-3 col-sm-12 col-xs-12">
-                            <div  className='footer-logo'>
+                            <div className='footer-logo'>
                                 <Image src={logo} alt="" />
                             </div>
                         </div>
@@ -90,6 +90,11 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div className="footer-bottom">
+                <div className="text-center">
+                    <h6>Copyright Ignite Youth Foundation &copy; 2021. All Rights Resarved</h6>
                 </div>
             </div>
         </div>

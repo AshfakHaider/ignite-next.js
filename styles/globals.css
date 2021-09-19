@@ -436,7 +436,7 @@
 
 .help h5 {
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .help-icon {
@@ -608,4 +608,103 @@
   padding: 80px 0 70px 0;
 }
 
+.footer-bottom{
+  background-color: #141414;
+  padding:25px 0px;
+  color: #ffffff;
+  margin-top: 50px;
+}
+.footer-bottom h6{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+}
 /* footer section end */
+
+/* subscibe start */
+
+.subscribe-box {
+  width: 1000px;
+  background: linear-gradient(45deg, #ea7325 1%, #fcc005 100%);
+  padding: 40px 45px;
+  margin: 100px auto 80px auto;
+  border-radius: 7px;
+}
+.donationText{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;  
+}
+
+.subscribe-input {
+  height: 55px;
+  width: 280px;
+  background: #F6AD39;
+  border: 1px solid transparent;
+}
+
+.subscribe-input:focus {
+  border: 2px solid white;
+  outline: none;
+}
+
+.subscribe-input::-webkit-input-placeholder {
+  color: white;
+  font-weight: 500;
+  padding-left: 15px;
+}
+
+.subscribeBtn {
+  padding: 17px 20px;
+  border: none;
+  margin-top: 10px;
+  background: #000;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.subscribeBtn:hover {
+  color: #000;
+  background: #fff;
+}
+
+.sub-box {
+  display: flex;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .subscribe-box {
+    padding: 40px 20px;
+    width: 350px;
+  }
+  .subscribe-input {
+    width: 300px;
+  }
+  .sub-box {
+    display: block;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .subscribe-box {
+    padding: 40px 20px;
+    width: 350px;
+  }
+  .subscribe-input {
+    width: 300px;
+  }
+  .sub-box {
+    display: block;
+  }
+}
+
+/* subscibe end */
+

@@ -11,6 +11,7 @@ import HeroBottom from './components/HeroBottom/HeroBottom';
 import Mission from './components/Mission/Mission';
 import NavigationBar from './components/Navbar/NavigationBar';
 import NavMobile from './components/Navbar/NavMobile';
+import Subscribe from './components/Subscribe/Subscribe';
 import Volunteer from './components/Volunteer/Volunteer';
 import { causeData, couterData, featured, currencies, achieve } from './data/fakedata';
 
@@ -42,6 +43,7 @@ const IndexView = () => {
                 data={achieve}
             />
             <Volunteer/>
+            <Subscribe/>
             <Footer/>
         </>
     );

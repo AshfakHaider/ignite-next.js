@@ -21,7 +21,7 @@ const Help = () => {
                         >Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your.</p>
                         <div className="d-flex" style={{marginTop:'35px'}}>
                             <FontAwesomeIcon icon={faHandHoldingUsd} className='help-icon' />
-                            <div style={{marginLeft:'25px',}}>
+                            <div style={{marginLeft:'20px',}}>
                                 <h5>Make Donation</h5>
                                 <p className="global_description">
                                     Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence
