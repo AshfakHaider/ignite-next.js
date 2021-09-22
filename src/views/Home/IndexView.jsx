@@ -21,8 +21,6 @@ import { causeData, couterData, featured, currencies, achieve } from './data/fak
 const IndexView = () => {
     return (
         <>
-            <NavigationBar />
-            <NavMobile />
             <Hero />
             <HeroBottom />
             <About />
@@ -44,7 +42,6 @@ const IndexView = () => {
             />
             <Volunteer/>
             <Subscribe/>
-            <Footer/>
         </>
     );
 };

@@ -1,21 +1,3 @@
-// import '../styles/globals.css'
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import { SSRProvider } from '@react-aria/ssr';
-
-
-
-// function MyApp({ Component, pageProps }) {
-//   return (
-    
-//       <SSRProvider>
-//         <Component {...pageProps} />
-//       </SSRProvider>
-   
-
-//   )
-// }
-
-// export default MyApp
 import React from "react";
 import PropTypes from "prop-types";
 import Head from "next/head";
@@ -25,6 +7,7 @@ import theme from "../src/theme/index";
 import "../styles/globals.css";
 import { SSRProvider } from '@react-aria/ssr';
 import 'tailwindcss/tailwind.css';
+import LayoutDefault from "../src/Layout/LayoutDefault";
 
 
 export default function MyApp(props) {
@@ -37,24 +20,19 @@ export default function MyApp(props) {
       jssStyles.parentElement.removeChild(jssStyles);
     }
   }, []);
+  const getLayout = Component.getLayout || ((page) => <LayoutDefault>{page}</LayoutDefault>)
 
-  return (
-    <React.Fragment>
-      <Head>
-        <title>My page</title>
-        <meta
-          name="viewport"
-          content="minimum-scale=1, initial-scale=1, width=device-width"
-        />
-      </Head>
+  return getLayout(
+
+    <>
       <SSRProvider>
-      <ThemeProvider theme={theme}>
-        {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
-        <CssBaseline />
-        <Component {...pageProps} />
-      </ThemeProvider>
+        <ThemeProvider theme={theme}>
+          {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
+          <CssBaseline />
+          <Component {...pageProps} />
+        </ThemeProvider>
       </SSRProvider>
-    </React.Fragment>
+    </>
   );
 }
 
