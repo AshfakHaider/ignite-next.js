@@ -1,6 +1,11 @@
 /* eslint-disable @next/next/no-page-custom-font */
 import IndexView from '../src/views/Home/IndexView';
 import Head from 'next/head';
+import NavigationBar from '../src/views/Home/components/Navbar/NavigationBar';
+import NavMobile from '../src/views/Home/components/Navbar/NavMobile';
+import Footer from '../src/views/Home/components/Footer/Footer';
+
+
 
 export default function Home() {
   return (
@@ -36,8 +41,10 @@ export default function Home() {
       
 
       </Head>
-
+      <NavigationBar/>
+      <NavMobile/>
       <IndexView />
+      <Footer/>
 
     </div>
   )
