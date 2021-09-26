@@ -707,12 +707,15 @@
 }
 
 /* subscibe end */
+
+/* dashboard start */
 .drawer-main{
   background-image: url('../src/assets/images/minimal.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
+
   
 }
 .dashboard-container{
@@ -721,3 +724,9 @@
   background-repeat: no-repeat;
   background-position: top center;
 }
+.active-dashboard-menu{
+  background:#F4F4F4;
+}
+
+
+/* dashboard end */
