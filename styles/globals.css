@@ -728,5 +728,14 @@
   background:#F4F4F4;
 }
 
+.mission-box{
+  background:linear-gradient(45deg, #FFB57C 30% , #28939D 70%);
+  padding:50px 45px;
+  border-radius:5px;
+  margin:20px 15px 20px 15px;
+  color: #fff;
+  font-size: 18px;
+
+}
 
 /* dashboard end */

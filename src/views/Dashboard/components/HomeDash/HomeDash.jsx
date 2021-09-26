@@ -1,23 +1,97 @@
+import { Typography } from '@mui/material';
 import React from 'react';
 import { Bar } from 'react-chartjs-2';
-
+import VisibilitySensor from "react-visibility-sensor";
+import CountUp from "react-countup";
 
 const HomeDash = () => {
     return (
-        <div>
-            {/* <Bar
-                data={{
-                    labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-                }}
-                width={400}
-                height={600}
-                options={{
-                    maintainAspectRatio: false,
-                }}
-            /> */}
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla voluptatibus iure neque, reiciendis, reprehenderit ut, sit modi illum dolore expedita debitis ea quia? Pariatur enim nulla atque. Deleniti maiores vero quo a, quas corporis perspiciatis nostrum in corrupti, eveniet hic voluptatum perferendis autem facilis? Possimus provident corrupti dolorem commodi similique asperiores maxime dolore illo obcaecati dolor placeat beatae perferendis maiores qui error quidem officiis facere corporis ratione iste voluptatibus necessitatibus, eum tenetur? Atque facere omnis incidunt eaque dignissimos aperiam consequuntur maiores minus velit iusto asperiores tempore numquam corrupti nam deserunt autem, distinctio alias? Eius exercitationem eligendi doloremque nesciunt expedita excepturi aliquam! Reiciendis eligendi ut cum commodi eum repellat expedita animi voluptates nobis eius veritatis voluptatem, alias, assumenda quos nemo quae ratione quas. Dicta voluptatum earum quas obcaecati aliquid temporibus quia sunt debitis maxime. Fuga adipisci labore, iusto necessitatibus fugiat consequatur obcaecati pariatur autem odio at quas, laudantium aperiam sint eos similique est minima neque sunt repellat tempora quos dolores totam quae ab! Quaerat sit laboriosam necessitatibus veritatis iste deleniti ratione, aut pariatur sequi incidunt, qui alias veniam, facilis mollitia enim dolorem corporis autem? Laudantium quos expedita eaque optio facilis ducimus nobis hic ut numquam mollitia laboriosam perspiciatis, voluptatem explicabo pariatur repudiandae aperiam sapiente quod inventore delectus labore? Vero quidem quibusdam nam iste fugiat et maxime, laudantium laboriosam ea ullam unde omnis impedit voluptates voluptas aliquid sequi facere, quisquam fuga aperiam. Ea ducimus nesciunt quis, modi ex ipsum recusandae omnis adipisci magni soluta ullam enim autem earum distinctio voluptate amet fugit facilis? Maxime accusantium eum ex distinctio omnis debitis iure consequatur aut, tenetur dolorum, a nostrum! Alias unde tempora voluptate harum veritatis deserunt odit voluptatem labore nesciunt impedit in ad corrupti quaerat suscipit excepturi, tenetur modi odio at corporis ut illo? Doloremque eveniet possimus in voluptatem dolores corporis omnis quaerat molestiae veniam libero similique, odit cupiditate et enim nihil nam odio incidunt quis a? Earum molestias natus aliquid beatae ea laboriosam inventore mollitia ipsa debitis, exercitationem ducimus fugit laudantium maxime quos sapiente nulla libero excepturi optio at consequuntur quisquam. Sit quibusdam ipsam error excepturi nesciunt esse eveniet adipisci pariatur nam, doloremque labore nemo enim, distinctio consequatur aliquid temporibus, recusandae delectus rerum iste illum? Veritatis ut saepe error qui expedita odit, minima dignissimos doloribus aut velit cupiditate quidem repellat voluptatum soluta aliquid nobis cumque at deserunt. Voluptatum a nemo sapiente quibusdam obcaecati dolorum voluptates similique eveniet expedita non, debitis porro necessitatibus fuga natus facere quas eos sunt mollitia nostrum labore et cupiditate? Voluptatibus quaerat accusamus doloribus, optio alias consequatur ducimus omnis vel quia porro repudiandae atque ab odit quibusdam inventore velit. Quidem consequuntur iste ratione at ea facilis. Culpa illum ea nesciunt porro vel similique eligendi inventore reiciendis molestiae ducimus? Possimus, placeat doloremque aliquid inventore, facilis, repellendus dolor sint aperiam a nesciunt recusandae? Obcaecati inventore alias explicabo nulla assumenda possimus, itaque accusantium rerum! Officiis atque repudiandae consectetur iste quibusdam! In eius dicta harum amet asperiores assumenda aperiam. Quas, sint. Ducimus at nobis alias maxime amet, ab, reprehenderit sunt iusto officia optio perspiciatis.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla voluptatibus iure neque, reiciendis, reprehenderit ut, sit modi illum dolore expedita debitis ea quia? Pariatur enim nulla atque. Deleniti maiores vero quo a, quas corporis perspiciatis nostrum in corrupti, eveniet hic voluptatum perferendis autem facilis? Possimus provident corrupti dolorem commodi similique asperiores maxime dolore illo obcaecati dolor placeat beatae perferendis maiores qui error quidem officiis facere corporis ratione iste voluptatibus necessitatibus, eum tenetur? Atque facere omnis incidunt eaque dignissimos aperiam consequuntur maiores minus velit iusto asperiores tempore numquam corrupti nam deserunt autem, distinctio alias? Eius exercitationem eligendi doloremque nesciunt expedita excepturi aliquam! Reiciendis eligendi ut cum commodi eum repellat expedita animi voluptates nobis eius veritatis voluptatem, alias, assumenda quos nemo quae ratione quas. Dicta voluptatum earum quas obcaecati aliquid temporibus quia sunt debitis maxime. Fuga adipisci labore, iusto necessitatibus fugiat consequatur obcaecati pariatur autem odio at quas, laudantium aperiam sint eos similique est minima neque sunt repellat tempora quos dolores totam quae ab! Quaerat sit laboriosam necessitatibus veritatis iste deleniti ratione, aut pariatur sequi incidunt, qui alias veniam, facilis mollitia enim dolorem corporis autem? Laudantium quos expedita eaque optio facilis ducimus nobis hic ut numquam mollitia laboriosam perspiciatis, voluptatem explicabo pariatur repudiandae aperiam sapiente quod inventore delectus labore? Vero quidem quibusdam nam iste fugiat et maxime, laudantium laboriosam ea ullam unde omnis impedit voluptates voluptas aliquid sequi facere, quisquam fuga aperiam. Ea ducimus nesciunt quis, modi ex ipsum recusandae omnis adipisci magni soluta ullam enim autem earum distinctio voluptate amet fugit facilis? Maxime accusantium eum ex distinctio omnis debitis iure consequatur aut, tenetur dolorum, a nostrum! Alias unde tempora voluptate harum veritatis deserunt odit voluptatem labore nesciunt impedit in ad corrupti quaerat suscipit excepturi, tenetur modi odio at corporis ut illo? Doloremque eveniet possimus in voluptatem dolores corporis omnis quaerat molestiae veniam libero similique, odit cupiditate et enim nihil nam odio incidunt quis a? Earum molestias natus aliquid beatae ea laboriosam inventore mollitia ipsa debitis, exercitationem ducimus fugit laudantium maxime quos sapiente nulla libero excepturi optio at consequuntur quisquam. Sit quibusdam ipsam error excepturi nesciunt esse eveniet adipisci pariatur nam, doloremque labore nemo enim, distinctio consequatur aliquid temporibus, recusandae delectus rerum iste illum? Veritatis ut saepe error qui expedita odit, minima dignissimos doloribus aut velit cupiditate quidem repellat voluptatum soluta aliquid nobis cumque at deserunt. Voluptatum a nemo sapiente quibusdam obcaecati dolorum voluptates similique eveniet expedita non, debitis porro necessitatibus fuga natus facere quas eos sunt mollitia nostrum labore et cupiditate? Voluptatibus quaerat accusamus doloribus, optio alias consequatur ducimus omnis vel quia porro repudiandae atque ab odit quibusdam inventore velit. Quidem consequuntur iste ratione at ea facilis. Culpa illum ea nesciunt porro vel similique eligendi inventore reiciendis molestiae ducimus? Possimus, placeat doloremque aliquid inventore, facilis, repellendus dolor sint aperiam a nesciunt recusandae? Obcaecati inventore alias explicabo nulla assumenda possimus, itaque accusantium rerum! Officiis atque repudiandae consectetur iste quibusdam! In eius dicta harum amet asperiores assumenda aperiam. Quas, sint. Ducimus at nobis alias maxime amet, ab, reprehenderit sunt iusto officia optio perspiciatis.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla voluptatibus iure neque, reiciendis, reprehenderit ut, sit modi illum dolore expedita debitis ea quia? Pariatur enim nulla atque. Deleniti maiores vero quo a, quas corporis perspiciatis nostrum in corrupti, eveniet hic voluptatum perferendis autem facilis? Possimus provident corrupti dolorem commodi similique asperiores maxime dolore illo obcaecati dolor placeat beatae perferendis maiores qui error quidem officiis facere corporis ratione iste voluptatibus necessitatibus, eum tenetur? Atque facere omnis incidunt eaque dignissimos aperiam consequuntur maiores minus velit iusto asperiores tempore numquam corrupti nam deserunt autem, distinctio alias? Eius exercitationem eligendi doloremque nesciunt expedita excepturi aliquam! Reiciendis eligendi ut cum commodi eum repellat expedita animi voluptates nobis eius veritatis voluptatem, alias, assumenda quos nemo quae ratione quas. Dicta voluptatum earum quas obcaecati aliquid temporibus quia sunt debitis maxime. Fuga adipisci labore, iusto necessitatibus fugiat consequatur obcaecati pariatur autem odio at quas, laudantium aperiam sint eos similique est minima neque sunt repellat tempora quos dolores totam quae ab! Quaerat sit laboriosam necessitatibus veritatis iste deleniti ratione, aut pariatur sequi incidunt, qui alias veniam, facilis mollitia enim dolorem corporis autem? Laudantium quos expedita eaque optio facilis ducimus nobis hic ut numquam mollitia laboriosam perspiciatis, voluptatem explicabo pariatur repudiandae aperiam sapiente quod inventore delectus labore? Vero quidem quibusdam nam iste fugiat et maxime, laudantium laboriosam ea ullam unde omnis impedit voluptates voluptas aliquid sequi facere, quisquam fuga aperiam. Ea ducimus nesciunt quis, modi ex ipsum recusandae omnis adipisci magni soluta ullam enim autem earum distinctio voluptate amet fugit facilis? Maxime accusantium eum ex distinctio omnis debitis iure consequatur aut, tenetur dolorum, a nostrum! Alias unde tempora voluptate harum veritatis deserunt odit voluptatem labore nesciunt impedit in ad corrupti quaerat suscipit excepturi, tenetur modi odio at corporis ut illo? Doloremque eveniet possimus in voluptatem dolores corporis omnis quaerat molestiae veniam libero similique, odit cupiditate et enim nihil nam odio incidunt quis a? Earum molestias natus aliquid beatae ea laboriosam inventore mollitia ipsa debitis, exercitationem ducimus fugit laudantium maxime quos sapiente nulla libero excepturi optio at consequuntur quisquam. Sit quibusdam ipsam error excepturi nesciunt esse eveniet adipisci pariatur nam, doloremque labore nemo enim, distinctio consequatur aliquid temporibus, recusandae delectus rerum iste illum? Veritatis ut saepe error qui expedita odit, minima dignissimos doloribus aut velit cupiditate quidem repellat voluptatum soluta aliquid nobis cumque at deserunt. Voluptatum a nemo sapiente quibusdam obcaecati dolorum voluptates similique eveniet expedita non, debitis porro necessitatibus fuga natus facere quas eos sunt mollitia nostrum labore et cupiditate? Voluptatibus quaerat accusamus doloribus, optio alias consequatur ducimus omnis vel quia porro repudiandae atque ab odit quibusdam inventore velit. Quidem consequuntur iste ratione at ea facilis. Culpa illum ea nesciunt porro vel similique eligendi inventore reiciendis molestiae ducimus? Possimus, placeat doloremque aliquid inventore, facilis, repellendus dolor sint aperiam a nesciunt recusandae? Obcaecati inventore alias explicabo nulla assumenda possimus, itaque accusantium rerum! Officiis atque repudiandae consectetur iste quibusdam! In eius dicta harum amet asperiores assumenda aperiam. Quas, sint. Ducimus at nobis alias maxime amet, ab, reprehenderit sunt iusto officia optio perspiciatis.
+        <div className='dashboard-home'>
+            <div className='mt-4'>
+                <h2 className="headings text-center style-font">
+                    Ignite Youth Foundtion
+                </h2>
+                <div className='d-flex mt-4 justify-content-center text-center'>
+                    <div className='mission-box'>
+                        <Typography
+                            variant='h5'
+                            sx={{
+                                fontSize: '1.5rem',
+                            }}
+                        >Students</Typography>
+                        <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
+                            {({ isVisible }) => (
+                                <div className='countt' >
+                                    {isVisible ?
+                                        <CountUp
+                                            start={0}
+                                            duration={1}
+                                            end={75}
+
+                                        /> :
+                                        null}
+                                </div>
+                            )}
+                        </VisibilitySensor>
+
+                    </div>
+                    <div className='mission-box'>
+                        <Typography variant='h5' align='center' >Schools</Typography>
+                        <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
+                            {({ isVisible }) => (
+                                <div className='countt' >
+                                    {isVisible ?
+                                        <CountUp
+                                            start={0}
+                                            duration={1}
+                                            end={1}
+                                         
+                                        /> :
+                                        null}
+                                </div>
+                            )}
+                        </VisibilitySensor>
+
+                    </div>
+                    <div className='mission-box'>
+                        <Typography variant='h5' align='center' >Projects</Typography>
+                        <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
+                            {({ isVisible }) => (
+                                <div className='countt' >
+                                    {isVisible ?
+                                        <CountUp
+                                            start={0}
+                                            duration={1}
+                                            end={6}
+                                      
+                                        /> :
+                                        null}
+                                </div>
+                            )}
+                        </VisibilitySensor>
+
+                    </div>
+                    <div className='mission-box'>
+                        <Typography variant='h5' align='center'>Volunteers</Typography>
+                        <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
+                            {({ isVisible }) => (
+                                <div className='countt' >
+                                    {isVisible ?
+                                        <CountUp
+                                            start={0}
+                                            duration={1}
+                                            end={23}
+                                        /> :
+                                        null}
+                                </div>
+                            )}
+                        </VisibilitySensor>
+                    </div>
+
+
+                </div>
             </div>
+        </div>
     );
 };
 

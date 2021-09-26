@@ -16,6 +16,7 @@ import Image from 'next/Image';
 import Avatar from '@mui/material/Avatar';
 import { SubjectOutlined, AddCircleOutlineOutlined } from '@mui/icons-material';
 import { useRouter } from 'next/router'
+import { SSRProvider } from '@react-aria/ssr';
 
 import Head from 'next/head';
 
@@ -85,7 +86,7 @@ export default function LayoutDash({ children }) {
                 <link
                     href="https://fonts.googleapis.com/css2?family=Condiment&family=Poppins:ital,wght@0,300;0,400;0,600;1,600&display=swap"
                     rel="stylesheet"
-                    
+
                 />
                 <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet" />
                 <script async src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -203,9 +204,9 @@ export default function LayoutDash({ children }) {
                 >
                     <Toolbar />
                     <div>
-
-                        {children}
-
+                        <SSRProvider>
+                            {children}
+                        </SSRProvider>
                     </div>
 
 

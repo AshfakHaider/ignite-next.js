@@ -82,6 +82,7 @@ export const couterData = [
         number:23,
         suffix:'k+'
     },
+
 ]
 
 
