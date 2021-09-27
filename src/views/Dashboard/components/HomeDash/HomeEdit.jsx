@@ -5,7 +5,12 @@ import Typography from '@mui/material/Typography';
 
 const HomeEdit = () => {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
-    const onSubmit = data => console.log(data);
+    const onSubmit = data => {
+        console.log(data.heading)
+        console.log(data);
+        alert('Form Submitted');
+
+    }
 
 
     return (
@@ -54,6 +59,16 @@ const HomeEdit = () => {
 
                         className='form-control'
                     />
+                    <label htmlFor='cause-image' className='form-label'>Enter Category  </label>
+                    <input
+                        name='cause-image'
+                        id='cause-image'
+                        placeholder='Please enter an image'
+                        defaultValue="Cause"
+                        {...register('image', { required: true })}
+                        type='file'
+                        className='form-control'
+                    />
                     <label htmlFor='cause-description' className='form-label'>Enter description Of Card </label>
                     <textarea
                         name='cause-description'
@@ -65,7 +80,7 @@ const HomeEdit = () => {
                     />
                     {errors.exampleRequired && <span>This field is required</span>}
 
-                    <input type="submit" className='donatebtn '/>
+                    <button className='submitBtn '>Submit</button>
                 </form>
             </div>
         </div>

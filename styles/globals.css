@@ -41,18 +41,29 @@
   font-size: 1rem;
   line-height: 24px;
 }
-.form-headings{
+
+.form-headings {
   font-size: 30px;
   line-height: 40px;
   font-weight: 700;
   margin: 20px 0px;
 }
 
-.form-label{
+.form-label {
   font-size: 17px;
   font-weight: 400;
   margin: 10px 0 5px 0;
 }
+
+.submitBtn {
+  padding: 11px 36px;
+  background: black;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  margin: 10px 0px;
+}
+
 /* Global Styles end */
 
 /* navbar styles start */
@@ -619,17 +630,19 @@
   padding: 80px 0 70px 0;
 }
 
-.footer-bottom{
+.footer-bottom {
   background-color: #141414;
-  padding:25px 0px;
+  padding: 25px 0px;
   color: #ffffff;
   margin-top: 50px;
 }
-.footer-bottom h6{
+
+.footer-bottom h6 {
   font-size: 14px;
   font-weight: 400;
   line-height: 25px;
 }
+
 /* footer section end */
 
 /* subscibe start */
@@ -641,11 +654,12 @@
   margin: 100px auto 80px auto;
   border-radius: 7px;
 }
-.donationText{
+
+.donationText {
   color: #fff;
   font-size: 30px;
   font-weight: 700;
-  margin: 0;  
+  margin: 0;
 }
 
 .subscribe-input {
@@ -720,33 +734,33 @@
 /* subscibe end */
 
 /* dashboard start */
-.drawer-main{
+
+.drawer-main {
   background-image: url('../src/assets/images/minimal.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-
-  
 }
-.dashboard-container{
+
+.dashboard-container {
   background-image: url('../src/assets/images/minimal.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
 }
-.active-dashboard-menu{
-  background:#F4F4F4;
+
+.active-dashboard-menu {
+  background: #F4F4F4;
 }
 
-.mission-box{
-  background:linear-gradient(45deg, #FFB57C 30% , #28939D 70%);
-  padding:50px 45px;
-  border-radius:5px;
-  margin:20px 15px 20px 15px;
+.mission-box {
+  background: linear-gradient(45deg, #FFB57C 30%, #28939D 70%);
+  padding: 50px 45px;
+  border-radius: 5px;
+  margin: 20px 15px 20px 15px;
   color: #fff;
   font-size: 18px;
-
 }
 
 /* dashboard end */
