@@ -33,40 +33,12 @@ export default function LayoutDash({ children }) {
             path: '/dashboard'
         },
         {
-            text: 'Create Note',
+            text: 'Edit Home Contents',
             icon: <AddCircleOutlineOutlined color="secondary" />,
-            path: '/create'
+            path: '/dashboard/home'
         },
-        {
-            text: 'My Notes',
-            icon: <SubjectOutlined color="secondary" />,
-            path: '/'
-        },
-        {
-            text: 'Create Note',
-            icon: <AddCircleOutlineOutlined color="secondary" />,
-            path: '/create'
-        },
-        {
-            text: 'My Notes',
-            icon: <SubjectOutlined color="secondary" />,
-            path: '/'
-        },
-        {
-            text: 'Create Note',
-            icon: <AddCircleOutlineOutlined color="secondary" />,
-            path: '/create'
-        },
-        {
-            text: 'My Notes',
-            icon: <SubjectOutlined color="secondary" />,
-            path: '/'
-        },
-        {
-            text: 'Create Note',
-            icon: <AddCircleOutlineOutlined color="secondary" />,
-            path: '/create'
-        },
+       
+      
     ];
 
 
@@ -208,9 +180,6 @@ export default function LayoutDash({ children }) {
                             {children}
                         </SSRProvider>
                     </div>
-
-
-
                 </Box>
             </Box>
         </>

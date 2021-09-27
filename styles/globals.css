@@ -41,7 +41,18 @@
   font-size: 1rem;
   line-height: 24px;
 }
+.form-headings{
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  margin: 20px 0px;
+}
 
+.form-label{
+  font-size: 17px;
+  font-weight: 400;
+  margin: 10px 0 5px 0;
+}
 /* Global Styles end */
 
 /* navbar styles start */
