@@ -18,8 +18,7 @@ import six from '../../../assets/images/six.png'
 
 import event1 from '../../../assets/images/event-1.jpg'
 
-
-import { faSchool,faUserGraduate,faLightbulb,faHandsHelping} from '@fortawesome/free-solid-svg-icons';
+import { faSchool, faUserGraduate, faLightbulb, faHandsHelping } from '@fortawesome/free-solid-svg-icons';
 
 export const causeData = [
     {

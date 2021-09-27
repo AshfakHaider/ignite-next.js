@@ -2,6 +2,7 @@ import React from 'react';
 import VisibilitySensor from "react-visibility-sensor";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+
 import CountUp from "react-countup";
 
 
@@ -18,7 +19,7 @@ const MissionDetails = ({ item }) => {
                                     start={0}
                                     duration={1}
                                     end={item.number}
-                                    suffix ={item.suffix?`${item.suffix}`:''}
+                                    suffix={item.suffix ? `${item.suffix}` : ''}
                                 /> :
                                 null}
                         </div>
@@ -27,6 +28,7 @@ const MissionDetails = ({ item }) => {
                 <div className="counter-bottom">
                     <h4>{item.title}</h4>
                     <FontAwesomeIcon icon={item.icon} className='counter-icon' />
+                   
                 </div>
             </div>
         </>
