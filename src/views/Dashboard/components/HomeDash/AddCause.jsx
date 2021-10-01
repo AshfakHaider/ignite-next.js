@@ -1,16 +1,54 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { useForm } from "react-hook-form";
 import Typography from '@mui/material/Typography';
-
+import axios  from 'axios';
 
 const AddCause = () => {
-    const { register, handleSubmit, watch, formState: { errors } } = useForm();
+    const { register, handleSubmit  } = useForm();
+    const [imgUrl, setImgUrl] = useState(null); 
 
     const onSubmit = data => {
-        console.log(data);
-        alert('Form Submitted');
+        const eventData = {
+            heading: data.heading,
+            description: data.description,
+            raised: data.raised,
+            goal: data.goal,
+            image: imgUrl,
+            category: data.category,
+        }
+        const url = 'http://localhost:5000/addCause';
+        fetch(url,{
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(eventData)
+        })
+        .then(res => res.json())
+        .then(data => {
+            console.log(data);
+        })
 
     }
+
+    const handleImgUpload = (e) => {
+        const image = e.target.files[0];
+        const imageData = new FormData();
+        imageData.set('key', '0ad6173cd5aeb795e482f44abb146bbe');
+        imageData.append('image', image);
+        axios.post('https://api.imgbb.com/1/upload', imageData)
+        .then(res => {
+            // console.log(res.data.data.display_url);
+            setImgUrl(res.data.data.display_url);
+        })
+            
+        .catch((err)=>{
+            console.log(err);
+        })
+
+
+    }
+
     return (
         <div className="m-auto col-md-8">
             <Typography
@@ -66,10 +104,10 @@ const AddCause = () => {
                     id='cause-image'
                     placeholder='Please enter an image'
                     defaultValue="cause"
-                    {...register('image', { required: true })}
                     type='file'
                     className='form-control'
                     required
+                    onChange={handleImgUpload}
                 />
                 <label htmlFor='cause-description' className='form-label'>Enter description Of Card </label>
                 <textarea

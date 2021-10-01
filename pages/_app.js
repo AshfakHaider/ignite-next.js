@@ -6,7 +6,7 @@ import theme from "../src/theme/index";
 import "../styles/globals.css";
 import { SSRProvider } from '@react-aria/ssr';
 import 'tailwindcss/tailwind.css';
-import LayoutDefault from '../src/Layout/LayoutDefault';
+import LayoutDefault from '../src/layout/LayoutDefault';
 
 
 
@@ -21,7 +21,16 @@ export default function MyApp(props) {
     }
   }, []);
 
-  const getLayout = Component.getLayout || ((page) => <LayoutDefault>{page}</LayoutDefault>)
+  const getLayout = Component.getLayout || ((page) => {
+    return (
+      <SSRProvider>
+        <LayoutDefault>
+          {page}
+        </LayoutDefault>
+      </SSRProvider>
+
+    )
+  })
 
   return getLayout(
 

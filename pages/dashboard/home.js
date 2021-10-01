@@ -1,5 +1,5 @@
 import React from 'react';
-import LayoutDash from '../../src/Layout/LayoutDash';
+import LayoutDash from '../../src/layout/LayoutDash';
 import HomeEdit from '../../src/views/Dashboard/components/HomeDash/HomeEdit';
 
 const home = () => {

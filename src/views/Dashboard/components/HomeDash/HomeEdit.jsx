@@ -11,13 +11,11 @@ const HomeEdit = () => {
 
     return (
         <div className='homeEdit mt-4'>
-            
             <AddCause/>
             <AddCounter/>
             <AddFeatured/>
             <AddAchivement/>
             <AddEvent/>
-
         </div>
     );
 };
