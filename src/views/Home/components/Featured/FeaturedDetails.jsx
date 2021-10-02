@@ -1,12 +1,11 @@
-/* eslint-disable @next/next/no-img-element */
-
 import React from 'react';
+import Image from 'next/Image'
 
 const FeaturedDetails = ({ item }) => {
   
     return (
         <div className="featured-image">
-            <img
+            <Image
                 src={item.img}
                 alt="featured img"
             />

@@ -1,5 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
 
+import Image from 'next/Image'
 import { faBehance, faFacebook, faGithub, faGoogle } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -16,7 +16,7 @@ const Footer = () => {
                     <div className="d-flex flex-wrap">
                         <div className="col-md-3 col-sm-12 col-xs-12">
                             <div className='footer-logo'>
-                                <img src={logo} alt="" />
+                                <Image src={logo} alt="" />
                             </div>
                         </div>
                         <div className="col-md-3 col-sm-12 col-xs-12">

@@ -1,9 +1,8 @@
-/* eslint-disable @next/next/no-img-element */
- // eslint-disable-next-line @next/next/no-img-element
+
 
 import React from 'react';
 import { Carousel, CarouselItem } from 'react-bootstrap'
-
+import Image from 'next/Image'
 
 // importing images
 import slider1 from '../../../../assets/images/vol-slide-small.png';
@@ -16,7 +15,7 @@ const Hero = () => {
             <Carousel>
                 <Carousel.Item>
                    
-                    <img
+                    <Image
                         className="d-block w-100"
                         src={slider1}
                         alt="First slide"
@@ -28,7 +27,7 @@ const Hero = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img
+                    <Image
                         className="d-block w-100"
                         src={slider2}
                         alt="Second slide"
@@ -42,7 +41,7 @@ const Hero = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img
+                    <Image
                         className="d-block w-100"
                         src={slider1}
                         alt="Third slide"

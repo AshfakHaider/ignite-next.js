@@ -21,25 +21,17 @@ export default function MyApp(props) {
     }
   }, []);
 
-  const getLayout = Component.getLayout || ((page) => {
-    return (
-      <SSRProvider>
-        <LayoutDefault>
-          {page}
-        </LayoutDefault>
-      </SSRProvider>
 
-    )
-  })
-
-  return getLayout(
+  return (
 
     <>
       <SSRProvider>
         <ThemeProvider theme={theme}>
           {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
           <CssBaseline />
-          <Component {...pageProps} />
+          <LayoutDefault>
+            <Component {...pageProps} />
+          </LayoutDefault>
         </ThemeProvider>
       </SSRProvider>
     </>

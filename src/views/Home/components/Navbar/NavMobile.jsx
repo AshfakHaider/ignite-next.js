@@ -1,5 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
-
+import Image from 'next/Image'
 import { Button } from '@material-ui/core';
 import React, { useState ,useEffect} from 'react';
 import { Navbar, NavDropdown, Nav, } from 'react-bootstrap'
@@ -16,8 +15,7 @@ const NavMobile = () => {
         <div className={`app-bar-mobile`} >
         <Navbar collapseOnSelect expand="lg"  >
             <Navbar.Brand style={{ width:'80px', height: '65px', position:'relative',bottom:'13px'}} className='logo' href="#home">
-                
-                <img
+                <Image
                     src={logo}
                     alt="logo"
                 />

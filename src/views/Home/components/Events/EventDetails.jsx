@@ -1,15 +1,14 @@
-/* eslint-disable @next/next/no-img-element */
-
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+import Image from 'next/Image';
 
 const EventDetails = ({ event }) => {
 
     return (
         <div className='d-flex' style={{marginTop:'28px'}}>
             <div className='event-img'>
-                <img src={event.image} alt={event.title} className='rounded' />
+                <Image src={event.image} alt={event.title} className='rounded' />
             </div>
             <div className='event-content'>
                 <h6>{event.title}</h6>
