@@ -6,7 +6,7 @@ import theme from "../src/theme/index";
 import "../styles/globals.css";
 import { SSRProvider } from '@react-aria/ssr';
 import 'tailwindcss/tailwind.css';
-import LayoutDefault from '../src/layout/LayoutDefault';
+import LayoutDefault from '../src/Layout/LayoutDefault';
 
 
 

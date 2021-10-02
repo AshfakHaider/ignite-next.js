@@ -10,7 +10,7 @@ import HeroBottom from './components/HeroBottom/HeroBottom';
 import Mission from './components/Mission/Mission';
 import Subscribe from './components/Subscribe/Subscribe';
 import Volunteer from './components/Volunteer/Volunteer';
-import { causeData, couterData, featured, currencies, achieve } from './data/fakedata';
+import { causeData, couterData, featured, achieve } from './data/fakedata';
 
 
 
@@ -31,9 +31,7 @@ const IndexView = () => {
             <Featured
                 data={featured}
             />
-            <Donation
-                data={currencies}
-            />
+            <Donation/>
             <Achivements
                 data={achieve}
             />
