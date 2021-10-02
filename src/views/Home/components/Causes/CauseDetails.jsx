@@ -1,5 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
+
 import React from 'react';
-import Image from 'next/Image';
 import { ProgressBar } from 'react-bootstrap';
 
 const CauseDetails = ({ item }) => {
@@ -9,7 +10,7 @@ const CauseDetails = ({ item }) => {
         <div className="cause-block me-md-4 me-0">
             <div className='cause-card' style={{ margin: '35px 0px ' }}>
                 <div className="cause-card-img">
-                    <Image src={item.image} alt="" />
+                    <img src={item.image} alt="" />
                 </div>
                 <div className="text-center cause-info">
                     <h4>{item.title}</h4>

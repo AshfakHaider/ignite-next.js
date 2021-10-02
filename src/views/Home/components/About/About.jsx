@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+
 import React from 'react';
 import Image from 'next/Image'
 import aboutImg1 from '../../../../assets/images/about-img-1.jpg'
@@ -15,10 +17,10 @@ const About = () => {
                         <div className='col-md-6 pe-md-5 pe-0'>
                             <div className='img-section'>
                                 <div className="figure-1">
-                                    <Image src={aboutImg1} alt="image2" />
+                                    <img src={aboutImg1} alt="image2" />
                                 </div>
                                 <div className="figure-2">
-                                    <Image src={aboutImg2} alt="image2" />
+                                    <img src={aboutImg2} alt="image2" />
                                 </div>
                             </div>
 

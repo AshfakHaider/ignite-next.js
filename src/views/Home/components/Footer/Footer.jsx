@@ -1,6 +1,8 @@
+/* eslint-disable @next/next/no-img-element */
+
 import { faBehance, faFacebook, faGithub, faGoogle } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Image from 'next/Image';
+
 import React from 'react';
 // import ArrowDownwardIcon from "@material-ui/icons/ArrowDownward";
 import logo from '../../../../assets/images/ignite_youth_foundation_logo.png';
@@ -14,7 +16,7 @@ const Footer = () => {
                     <div className="d-flex flex-wrap">
                         <div className="col-md-3 col-sm-12 col-xs-12">
                             <div className='footer-logo'>
-                                <Image src={logo} alt="" />
+                                <img src={logo} alt="" />
                             </div>
                         </div>
                         <div className="col-md-3 col-sm-12 col-xs-12">

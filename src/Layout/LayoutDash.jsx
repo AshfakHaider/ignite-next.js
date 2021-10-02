@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-page-custom-font */
+/* eslint-disable @next/next/no-img-element */
 
 import * as React from 'react';
 import Box from '@mui/material/Box';
@@ -12,7 +13,6 @@ import Divider from '@mui/material/Divider';
 import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import logo from '../assets/images/ignite_youth_foundation_logo.png';
-import Image from 'next/Image';
 import Avatar from '@mui/material/Avatar';
 import { SubjectOutlined, AddCircleOutlineOutlined } from '@mui/icons-material';
 import { useRouter } from 'next/router'
@@ -138,7 +138,7 @@ export default function LayoutDash({ children }) {
 
                             }}
                         >
-                            <Image
+                            <img
                                 src={logo}
                                 alt="logo"
                             />

@@ -1,5 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
+
 import React, { useState } from 'react';
-import Image from 'next/Image';
 import eventImg from '../../../../assets/images/event-1.jpg';
 import Event from '../Events/Event';
 import { eventData } from '../../data/fakedata';

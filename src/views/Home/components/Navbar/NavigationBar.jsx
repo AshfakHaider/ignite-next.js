@@ -1,7 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
+
 import { Button } from '@material-ui/core';
 import React, { useState ,useEffect} from 'react';
 import { Navbar, NavDropdown, Nav, } from 'react-bootstrap'
-import Image from 'next/Image'
+
 
 
 // import image
@@ -31,7 +33,7 @@ const NavigationBar = () => {
         <div className={`app-bar ${show && 'nav_black'}`} >
             <Navbar collapseOnSelect expand="lg"  >
                 <Navbar.Brand style={{ width:show?'80px':'100px', height: show?'65px':'100px', position:'relative',bottom:show?'13px': '0px'}} className='logo' href="#home">
-                    <Image
+                    <img
                         src={logo}
                         alt="logo"
                       

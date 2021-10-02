@@ -1,11 +1,12 @@
+/* eslint-disable @next/next/no-img-element */
+
 import React from 'react';
-import Image from 'next/Image';
 
 const AchiveDetail = ({item}) => {
     
     return (
         <div className="achivement-image">
-            <Image
+            <img
                 src={item.image}
                 alt="achivement img"
             />
