@@ -5,7 +5,7 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import theme from "../src/theme/index";
 import { SSRProvider } from '@react-aria/ssr';
 import LayoutDefault from '../src/Layout/LayoutDefault';
-
+import "../styles/globals.css";
 
 
 export default function MyApp(props) {
