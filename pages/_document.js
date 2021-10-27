@@ -13,14 +13,18 @@ export default class MyDocument extends Document {
           {/* PWA primary color */}
           <meta name="theme-color" content={theme.palette.primary.main} />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link href="https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap" rel="stylesheet" />
-          <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+          <link href="https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap" as='font' crossOrigin="" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" as="font"
+            crossOrigin="" rel="stylesheet" />
           <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
             integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
             crossOrigin="anonymous"
           />
+          
+
         </Head>
         <body>
           <Main />
