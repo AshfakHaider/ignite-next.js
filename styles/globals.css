@@ -1,766 +1,775 @@
 /* Global Styles start */
 
+body {
+  font-family: 'Zen Antique Soft';
+
+}
+
 .minimal-heading {
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 13px;
-    line-height: 1rem;
-  }
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 13px;
+  line-height: 1rem;
+}
+
+.donatebtn {
+  padding: 17px 20px;
+  border: none;
+  margin-top: 10px;
+  background: linear-gradient(45deg, #ea7325 1%, #fcc005 100%);
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.style-font {
+  font-family: MonteCarlo, cursive;
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+.main-heading {
+  font-weight: 800;
+  line-height: 5rem;
+  font-size: 52px;
   
-  .donatebtn {
-    padding: 17px 20px;
-    border: none;
-    margin-top: 10px;
-    background: linear-gradient(45deg, #ea7325 1%, #fcc005 100%);
-    color: white;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 1px;
-  }
+}
+
+.headings {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 800;
+
+}
+
+.global_description {
+  color: '#888888';
+  font-size: 1rem;
+  line-height: 24px;
+}
+
+.form-headings {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  margin: 20px 0px;
+ 
+}
+
+.form-label {
+  font-size: 17px;
+  font-weight: 400;
+  margin: 10px 0 5px 0;
   
-  .style-font {
-    font-family: MonteCarlo, cursive;
-    font-weight: 400;
-    font-size: 4rem;
-  }
-  
-  .main-heading {
-    font-weight: 800;
-    line-height: 5rem;
-    font-size: 60px;
-  }
-  
-  .headings {
-    font-size: 40px;
-    line-height: 48px;
-    font-weight: 800;
-  }
-  
-  .global_description {
-    color: '#888888';
-    font-size: 1rem;
-    line-height: 24px;
-  }
-  
-  .form-headings {
-    font-size: 30px;
-    line-height: 40px;
-    font-weight: 700;
-    margin: 20px 0px;
-  }
-  
-  .form-label {
-    font-size: 17px;
-    font-weight: 400;
-    margin: 10px 0 5px 0;
-  }
-  
-  .submitBtn {
-    padding: 11px 36px;
-    background: black;
-    border: none;
-    border-radius: 2px;
-    color: #fff;
-    margin: 10px 0px;
-  }
-  
-  /* Global Styles end */
-  
-  /* navbar styles start */
-  
+}
+
+.submitBtn {
+  padding: 11px 36px;
+  background: black;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  margin: 10px 0px;
+}
+
+/* Global Styles end */
+
+/* navbar styles start */
+
+.app-bar {
+  padding-left: 35px;
+  padding-right: 35px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+}
+
+.nav-link {
+  margin: 0px 0px 0px 15px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #F7941D;
+}
+
+.nav-item {
+  margin: 0px 0px 0px 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+.dropdown-menu {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.dropdown-item {
+  color: #fff !important;
+  padding: 8px 15px 6px 15px !important;
+}
+
+.dropdown-item:hover {
+  background-color: #F7941D !important;
+}
+
+.nav_black {
+  background-color: rgba(47, 46, 50, .90);
+  opacity: 1;
+}
+
+.app-bar-mobile {
+  display: none;
+  background-color: rgba(47, 46, 50, .90);
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
   .app-bar {
-    padding-left: 35px;
-    padding-right: 35px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1030;
-  }
-  
-  .nav-link {
-    margin: 0px 0px 0px 15px;
-    font-size: 1rem;
-    font-weight: 700;
-    color: #000;
-  }
-  
-  .nav-link:hover {
-    border-bottom: 2px solid #F7941D;
-  }
-  
-  .nav-item {
-    margin: 0px 0px 0px 10px;
-    font-size: 1rem;
-    font-weight: 700;
-    color: #fff !important;
-  }
-  
-  .navbar-light .navbar-nav .nav-link {
-    color: #fff !important;
-  }
-  
-  .dropdown-menu {
-    background-color: #000 !important;
-    color: #fff !important;
-  }
-  
-  .dropdown-item {
-    color: #fff !important;
-    padding: 8px 15px 6px 15px !important;
-  }
-  
-  .dropdown-item:hover {
-    background-color: #F7941D !important;
-  }
-  
-  .nav_black {
-    background-color: rgba(47, 46, 50, .90);
-    opacity: 1;
-  }
-  
-  .app-bar-mobile {
     display: none;
-    background-color: rgba(47, 46, 50, .90);
-    padding-left: 35px;
-    padding-right: 35px;
   }
-  
-  @media (min-width: 481px) and (max-width: 767px) {
-    .app-bar {
-      display: none;
-    }
-    .app-bar-mobile {
-      display: block;
-    }
-    .nav-item {
-      margin: 0px 0px 0px 0px;
-    }
+  .app-bar-mobile {
+    display: block;
   }
-  
-  /* 
+  .nav-item {
+    margin: 0px 0px 0px 0px;
+  }
+}
+
+/* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
   */
-  
-  @media (min-width: 320px) and (max-width: 480px) {
-    .app-bar {
-      display: none;
-    }
-    .app-bar-mobile {
-      display: block;
-    }
-    .nav-item {
-      margin: 0px 0px 0px 0px;
-    }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .app-bar {
+    display: none;
   }
-  
-  /* navbar styles end */
-  
-  /* hero styles start */
-  
-  .carousel-caption {
-    position: absolute;
-    top: 40% !important;
+  .app-bar-mobile {
+    display: block;
   }
-  
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    .main-heading {
-      font-size: 35px;
-      line-height: 3rem;
-      font-weight: 700;
-    }
+  .nav-item {
+    margin: 0px 0px 0px 0px;
   }
-  
-  /* 
+}
+
+/* navbar styles end */
+
+/* hero styles start */
+
+.carousel-caption {
+  position: absolute;
+  top: 40% !important;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .main-heading {
+    font-size: 35px;
+    line-height: 3rem;
+    font-weight: 700;
+  }
+}
+
+/* 
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 481px to 767px
   */
-  
-  @media (min-width: 481px) and (max-width: 767px) {
-    .carousel-caption {
-      display: none;
-    }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .carousel-caption {
+    display: none;
   }
-  
-  /* 
+}
+
+/* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
   */
-  
-  @media (min-width: 320px) and (max-width: 480px) {
-    .carousel-caption {
-      display: none;
-    }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .carousel-caption {
+    display: none;
   }
-  
-  /* hero styles end */
-  
-  /* ______-_-_-_____--_-_________-_-_____-________-_-_--_____ */
-  
-  /* hero bottom start */
-  
-  .heroBottom {
-    margin: 30px 0px;
-  }
-  
-  .heroBottom_number {
-    font-size: 50px;
-    font-weight: 800;
-    line-height: 50px;
-    color: #fcc005;
-    letter-spacing: 0.5px;
-  }
-  
-  .heroBottom_title {
-    font-weight: 700;
-    line-height: 23.8px;
-    font-size: 24px;
-    margin: 10px 0px;
-  }
-  
-  .heroBottom_title:hover {
-    color: #fcc005;
-  }
-  
-  .heroBottom_description {
-    color: #888888;
-    margin: 10px 0;
-  }
-  
-  /* hero bottom end */
-  
-  /* ______-_-_-_____--_-_________-_-_____-________-_-_--_____ */
-  
-  /* about section start  */
-  
-  .img-section {
-    position: relative;
-    padding-top: 30px;
-    padding-left: 65px;
-  }
-  
-  .figure-1 {
-    position: relative;
-    left: 0;
-    z-index: 1;
-  }
-  
+}
+
+/* hero styles end */
+
+/* ______-_-_-_____--_-_________-_-_____-________-_-_--_____ */
+
+/* hero bottom start */
+
+.heroBottom {
+  margin: 30px 0px;
+}
+
+.heroBottom_number {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 50px;
+  color: #fcc005;
+  letter-spacing: 0.5px;
+}
+
+.heroBottom_title {
+  font-weight: 700;
+  line-height: 23.8px;
+  font-size: 24px;
+  margin: 10px 0px;
+}
+
+.heroBottom_title:hover {
+  color: #fcc005;
+}
+
+.heroBottom_description {
+  color: #888888;
+  margin: 10px 0;
+}
+
+/* hero bottom end */
+
+/* ______-_-_-_____--_-_________-_-_____-________-_-_--_____ */
+
+/* about section start  */
+
+.img-section {
+  position: relative;
+  padding-top: 30px;
+  padding-left: 65px;
+}
+
+.figure-1 {
+  position: relative;
+  left: 0;
+  z-index: 1;
+}
+
+.figure-2 {
+  position: absolute;
+  right: -5px;
+  top: -20px;
+  z-index: 9;
+}
+
+.figure-1 img {
+  width: 100%;
+  box-shadow: 0 15px 30px rgb(0 0 0 / 20%);
+}
+
+.figure-2 img {
+  box-shadow: 0 15px 30px rgb(0 0 0 / 20%);
+}
+
+.about-inner {
+  padding: 120px 0px 90px 0px
+}
+
+.about {
+  margin: 30px 0;
+  background-color: #F4F4F4;
+}
+
+.about-inner-description {
+  padding: 50px 0px 0px 0px;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
   .figure-2 {
-    position: absolute;
-    right: -5px;
-    top: -20px;
-    z-index: 9;
+    display: none;
   }
-  
-  .figure-1 img {
-    width: 100%;
-    box-shadow: 0 15px 30px rgb(0 0 0 / 20%);
+  .img-section {
+    padding-left: 0px;
   }
-  
-  .figure-2 img {
-    box-shadow: 0 15px 30px rgb(0 0 0 / 20%);
-  }
-  
   .about-inner {
-    padding: 120px 0px 90px 0px
+    padding: 40px 0px 40px 0px
   }
-  
-  .about {
-    margin: 30px 0;
-    background-color: #F4F4F4;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .figure-2 {
+    display: none;
   }
-  
-  .about-inner-description {
-    padding: 50px 0px 0px 0px;
+  .img-section {
+    padding-left: 0px;
   }
-  
-  @media (min-width: 481px) and (max-width: 767px) {
-    .figure-2 {
-      display: none;
-    }
-    .img-section {
-      padding-left: 0px;
-    }
-    .about-inner {
-      padding: 40px 0px 40px 0px
-    }
+  .about-inner {
+    padding: 40px 0px 40px 0px
   }
-  
-  @media (min-width: 320px) and (max-width: 480px) {
-    .figure-2 {
-      display: none;
-    }
-    .img-section {
-      padding-left: 0px;
-    }
-    .about-inner {
-      padding: 40px 0px 40px 0px
-    }
-    .figure-1 img {
-      width: 80%;
-    }
+  .figure-1 img {
+    width: 80%;
   }
-  
-  /* about section end */
-  
-  /* cause section start */
-  
-  .cause {
-    margin: 90px 0px;
-  }
-  
-  .cause-card {
-    box-shadow: 0 16px 32px rgb(0 0 0 / 10%);
-    border-radius: 1rem;
-  }
-  
-  .cause-block {
-    padding: 0px 5px;
-  }
-  
-  .cause-info h4 {
-    font-size: 20px;
-    line-height: 2rem;
-    font-weight: 700;
-  }
-  
-  .cause-info p {
-    font-size: 14px;
-    line-height: 22px;
-    color: gray;
-    margin-bottom: 20px;
-  }
-  
-  .cause-info {
-    padding: 15px 15px;
-  }
-  
-  .cause-card-img img {
-    width: 100%;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-  }
-  
-  .progress {
-    height: 5px !important;
-  }
-  
-  .divider {
-    border-left: 1px solid #bbb9b9;
-    height: 35px;
-    margin: 0px 15px 0 15px;
-    position: relative;
-    bottom: 10px;
-  }
-  
-  .progress-bar {
-    background-color: #fcc005 !important;
-  }
-  
-  .money-raising h4 {
-    font-size: 20px;
-    position: relative;
-    bottom: 4px;
-    left: 2px;
-  }
-  
-  /* cause section end */
-  
-  /* mission section start */
-  
-  .mission {
-    background-image: url(http://html.efforttech.com/html/varna-charity/images/main-slider/image-3.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 70px 0px 0px 0px;
-    background-attachment: fixed;
-    color: white;
-  }
-  
-  .inner-mission {
-    padding: 100px 20px 100px 20px;
-  }
-  
-  .countt {
-    font-size: 40px;
-    font-weight: 700;
-    color: white;
-    height: 100px;
-    padding: 25px 25px 0 25px;
-  }
-  
-  .counter-box {
-    background-color: #58565630;
-    padding: 10px 40px;
-    border-radius: 10px;
-    text-align: center;
-    margin: 20px 20px 40px 20px;
-  }
-  
-  .counter-bottom {
-    padding: 0 25px 25px 25px;
-    position: relative;
-    bottom: 10px;
-  }
-  
-  .counter-icon {
-    font-size: 50px;
-    color: #FCC005;
-    margin: 12px 0 0 0;
-    width: 140px;
-    height: 50px;
-  }
-  
-  .counter-bottom h4 {
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 2rem;
-  }
-  
-  /* mission section end */
-  
-  /* help section start */
-  
+}
+
+/* about section end */
+
+/* cause section start */
+
+.cause {
+  margin: 90px 0px;
+}
+
+.cause-card {
+  box-shadow: 0 16px 32px rgb(0 0 0 / 10%);
+  border-radius: 1rem;
+}
+
+.cause-block {
+  padding: 0px 5px;
+}
+
+.cause-info h4 {
+  font-size: 20px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.cause-info p {
+  font-size: 1rem;
+  line-height: 22px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.cause-info {
+  padding: 15px 15px;
+}
+
+.cause-card-img img {
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.progress {
+  height: 5px !important;
+}
+
+.divider {
+  border-left: 1px solid #bbb9b9;
+  height: 35px;
+  margin: 0px 15px 0 15px;
+  position: relative;
+  bottom: 10px;
+}
+
+.progress-bar {
+  background-color: #fcc005 !important;
+}
+
+.money-raising h4 {
+  font-size: 20px;
+  position: relative;
+  bottom: 4px;
+  left: 2px;
+}
+
+/* cause section end */
+
+/* mission section start */
+
+.mission {
+  background-image: url(http://html.efforttech.com/html/varna-charity/images/main-slider/image-3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 70px 0px 0px 0px;
+  background-attachment: fixed;
+  color: white;
+}
+
+.inner-mission {
+  padding: 100px 20px 100px 20px;
+}
+
+.countt {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  height: 100px;
+  padding: 25px 25px 0 25px;
+}
+
+.counter-box {
+  background-color: #58565630;
+  padding: 10px 40px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px 20px 40px 20px;
+}
+
+.counter-bottom {
+  padding: 0 25px 25px 25px;
+  position: relative;
+  bottom: 10px;
+}
+
+.counter-icon {
+  font-size: 50px;
+  color: #FCC005;
+  margin: 12px 0 0 0;
+  width: 140px;
+  height: 50px;
+}
+
+.counter-bottom h4 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+/* mission section end */
+
+/* help section start */
+
+.help-img {
+  background-image: url(http://html.efforttech.com/html/varna-charity/images/resource/image-1.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.separator-help1 {
+  background: linear-gradient( #fcc005 1%, #ea7325 100%);
+  height: 5px;
+  width: 7%;
+  margin: 25px 0;
+}
+
+.separator-help2 {
+  background: linear-gradient( #fcc005 1%, #ea7325 100%);
+  height: 5px;
+  width: 2%;
+  margin: 25px 0;
+}
+
+.inner-content-help {
+  padding: 100px 15px 75px 30px;
+  background-color: #F9F9F9;
+}
+
+.description {
+  color: #888888;
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.help h5 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.help-icon {
+  font-size: 50px;
+  color: #888888;
+  width: 50px;
+  height: 50px;
+}
+
+.help-icon:hover {
+  color: #fcc005;
+}
+
+.inner-content-help h5:hover {
+  color: #fcc005;
+  cursor: pointer;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
   .help-img {
-    background-image: url(http://html.efforttech.com/html/varna-charity/images/resource/image-1.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
   }
-  
-  .separator-help1 {
-    background: linear-gradient( #fcc005 1%, #ea7325 100%);
-    height: 5px;
-    width: 7%;
-    margin: 25px 0;
-  }
-  
-  .separator-help2 {
-    background: linear-gradient( #fcc005 1%, #ea7325 100%);
-    height: 5px;
-    width: 2%;
-    margin: 25px 0;
-  }
-  
-  .inner-content-help {
-    padding: 100px 15px 75px 30px;
-    background-color: #F9F9F9;
-  }
-  
-  .description {
-    color: #888888;
-    line-height: 20px;
-    font-weight: 400;
-    font-size: 16px;
-  }
-  
-  .help h5 {
-    font-size: 20px;
-    font-weight: 600;
-  }
-  
-  .help-icon {
-    font-size: 50px;
-    color: #888888;
-    width: 50px;
-    height: 50px;
-  }
-  
-  .help-icon:hover {
-    color: #fcc005;
-  }
-  
-  .inner-content-help h5:hover {
-    color: #fcc005;
-    cursor: pointer;
-  }
-  
-  @media (min-width: 481px) and (max-width: 767px) {
-    .help-img {
-      height: 600px;
-      width: 100%;
-    }
-  }
-  
-  /* 
+}
+
+/* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
   */
-  
-  @media (min-width: 320px) and (max-width: 480px) {
-    .help-img {
-      width: 100%;
-      height: 600px;
-    }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .help-img {
+    width: 100%;
+    height: 600px;
   }
-  
-  /* help section end */
-  
-  /* featurd section start */
-  
-  .featured {
-    margin: 90px 0px;
-  }
-  
-  .featured-image img {
-    width: 200px;
-    height: 100px;
-  }
-  
-  .featured-image {
-    margin: 25px 0;
-  }
-  
-  /* featurd section end */
-  
-  /* donation section start */
-  
-  .donation {
-    background-image: linear-gradient( rgb(7 7 7 / 86%), rgb(0 0 0 / 91%)), url(http://html.efforttech.com/html/varna-charity/images/background/2.jpg);
-    margin: 110px 0px 70px 0px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  .inner-contents-donation {
-    padding: 80px 0px 50px 0px;
-    color: white;
-  }
-  
-  .inner-contents-donation {
-    padding: 80px 0px 50px 0px;
-    color: white;
-  }
-  
-  .donation-form {
-    margin: 30px 0px 10px 0;
-    padding: 45px 40px 45px 45px;
-    border: 1px solid gray;
-    border-radius: 7px;
-  }
-  
-  .event-content {
-    margin-left: 20px;
-  }
-  
-  .event-content h6 {
-    font-size: 20px;
-    font-weight: 700;
-  }
-  
-  /* donation section end */
-  
-  /* achivement section start */
-  
-  .achivements {
-    margin: 90px 0px;
-  }
-  
-  .achivement-image img {
-    width: 200px;
-    height: 100px;
-    text-align: center;
-  }
-  
-  .achivement-image {
-    margin: 25px 0;
-  }
-  
-  /* achivements sectiion end */
-  
-  /* volunteer section start */
-  
-  /* volunteer section end */
-  
-  /* footer section start */
-  
-  .footer {
-    background-image: linear-gradient( rgb(7 7 7 / 73%), rgb(0 0 0 / 91%)), url(http://html.efforttech.com/html/varna-charity/images/background/2.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  
-  .footer-logo {
-    width: 150px;
-    margin-top: 15px;
-    cursor: pointer;
-  }
-  
-  .footer-header {
-    font-size: 18px;
-    color: white;
-    line-height: 20.4px;
-    font-weight: 600px;
-  }
-  
-  .footer-list {
-    list-style: none;
-    padding-left: 0;
-    margin-top: 15px;
-  }
-  
-  .footer-list li a {
-    color: #888888;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 30px;
-  }
-  
-  .footer-list li a:hover {
-    color: #ffffff;
-    text-decoration: none;
-  }
-  
-  .footer-description {
-    color: #888888;
-    font-size: 16px;
-    font-weight: 600;
-    margin-top: 10px;
-  }
-  
-  .footer-description:hover {
-    color: #fff;
-  }
-  
-  .footer-inner {
-    padding: 80px 0 70px 0;
-  }
-  
-  .footer-bottom {
-    background-color: #141414;
-    padding: 25px 0px;
-    color: #ffffff;
-    margin-top: 50px;
-  }
-  
-  .footer-bottom h6 {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 25px;
-  }
-  
-  /* footer section end */
-  
-  /* subscibe start */
-  
+}
+
+/* help section end */
+
+/* featurd section start */
+
+.featured {
+  margin: 90px 0px;
+}
+
+.featured-image img {
+  width: 200px;
+  height: 100px;
+}
+
+.featured-image {
+  margin: 25px 0;
+}
+
+/* featurd section end */
+
+/* donation section start */
+
+.donation {
+  background-image: linear-gradient( rgb(7 7 7 / 86%), rgb(0 0 0 / 91%)), url(http://html.efforttech.com/html/varna-charity/images/background/2.jpg);
+  margin: 110px 0px 70px 0px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.inner-contents-donation {
+  padding: 80px 0px 50px 0px;
+  color: white;
+}
+
+.inner-contents-donation {
+  padding: 80px 0px 50px 0px;
+  color: white;
+}
+
+.donation-form {
+  margin: 30px 0px 10px 0;
+  padding: 45px 40px 45px 45px;
+  border: 1px solid gray;
+  border-radius: 7px;
+}
+
+.event-content {
+  margin-left: 20px;
+}
+
+.event-content h6 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* donation section end */
+
+/* achivement section start */
+
+.achivements {
+  margin: 90px 0px;
+}
+
+.achivement-image img {
+  width: 200px;
+  height: 100px;
+  text-align: center;
+}
+
+.achivement-image {
+  margin: 25px 0;
+}
+
+/* achivements sectiion end */
+
+/* volunteer section start */
+
+/* volunteer section end */
+
+/* footer section start */
+
+.footer {
+  background-image: linear-gradient( rgb(7 7 7 / 73%), rgb(0 0 0 / 91%)), url(http://html.efforttech.com/html/varna-charity/images/background/2.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer-logo {
+  width: 150px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.footer-header {
+  font-size: 18px;
+  color: white;
+  line-height: 20.4px;
+  font-weight: 600px;
+}
+
+.footer-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 15px;
+}
+
+.footer-list li a {
+  color: #888888;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.footer-list li a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-description {
+  color: #888888;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.footer-description:hover {
+  color: #fff;
+}
+
+.footer-inner {
+  padding: 80px 0 70px 0;
+}
+
+.footer-bottom {
+  background-color: #141414;
+  padding: 25px 0px;
+  color: #ffffff;
+  margin-top: 50px;
+}
+
+.footer-bottom h6 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+/* footer section end */
+
+/* subscibe start */
+
+.subscribe-box {
+  width: 1000px;
+  background: linear-gradient(45deg, #ea7325 1%, #fcc005 100%);
+  padding: 40px 45px;
+  margin: 100px auto 80px auto;
+  border-radius: 7px;
+}
+
+.donationText {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.subscribe-input {
+  height: 55px;
+  width: 280px;
+  background: #F6AD39;
+  border: 1px solid transparent;
+}
+
+.subscribe-input:focus {
+  border: 2px solid white;
+  outline: none;
+}
+
+.subscribe-input::-webkit-input-placeholder {
+  color: white;
+  font-weight: 500;
+  padding-left: 15px;
+}
+
+.subscribeBtn {
+  padding: 17px 20px;
+  border: none;
+  margin-top: 10px;
+  background: #000;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.subscribeBtn:hover {
+  color: #000;
+  background: #fff;
+}
+
+.sub-box {
+  display: flex;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
   .subscribe-box {
-    width: 1000px;
-    background: linear-gradient(45deg, #ea7325 1%, #fcc005 100%);
-    padding: 40px 45px;
-    margin: 100px auto 80px auto;
-    border-radius: 7px;
+    padding: 40px 20px;
+    width: 350px;
   }
-  
-  .donationText {
-    color: #fff;
-    font-size: 30px;
-    font-weight: 700;
-    margin: 0;
-  }
-  
   .subscribe-input {
-    height: 55px;
-    width: 280px;
-    background: #F6AD39;
-    border: 1px solid transparent;
+    width: 300px;
   }
-  
-  .subscribe-input:focus {
-    border: 2px solid white;
-    outline: none;
-  }
-  
-  .subscribe-input::-webkit-input-placeholder {
-    color: white;
-    font-weight: 500;
-    padding-left: 15px;
-  }
-  
-  .subscribeBtn {
-    padding: 17px 20px;
-    border: none;
-    margin-top: 10px;
-    background: #000;
-    color: white;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 1px;
-  }
-  
-  .subscribeBtn:hover {
-    color: #000;
-    background: #fff;
-  }
-  
   .sub-box {
-    display: flex;
+    display: block;
   }
-  
-  @media (min-width: 481px) and (max-width: 767px) {
-    .subscribe-box {
-      padding: 40px 20px;
-      width: 350px;
-    }
-    .subscribe-input {
-      width: 300px;
-    }
-    .sub-box {
-      display: block;
-    }
-  }
-  
-  /* 
+}
+
+/* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
   */
-  
-  @media (min-width: 320px) and (max-width: 480px) {
-    .subscribe-box {
-      padding: 40px 20px;
-      width: 350px;
-    }
-    .subscribe-input {
-      width: 300px;
-    }
-    .sub-box {
-      display: block;
-    }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .subscribe-box {
+    padding: 40px 20px;
+    width: 350px;
   }
-  
-  /* subscibe end */
-  
-  /* dashboard start */
-  
-  .drawer-main {
-    background-image: url('../src/assets/images/minimal.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
+  .subscribe-input {
+    width: 300px;
   }
-  
-  .dashboard-container {
-    background-image: url('../src/assets/images/minimal.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
+  .sub-box {
+    display: block;
   }
-  
-  .active-dashboard-menu {
-    background: #F4F4F4;
-  }
-  
-  .mission-box {
-    background: linear-gradient(45deg, #FFB57C 30%, #28939D 70%);
-    padding: 50px 45px;
-    border-radius: 5px;
-    margin: 20px 15px 20px 15px;
-    color: #fff;
-    font-size: 18px;
-  }
-  
-  /* dashboard end */
+}
+
+/* subscibe end */
+
+/* dashboard start */
+
+.drawer-main {
+  background-image: url('../src/assets/images/minimal.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.dashboard-container {
+  background-image: url('../src/assets/images/minimal.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.active-dashboard-menu {
+  background: #F4F4F4;
+}
+
+.mission-box {
+  background: linear-gradient(45deg, #FFB57C 30%, #28939D 70%);
+  padding: 50px 45px;
+  border-radius: 5px;
+  margin: 20px 15px 20px 15px;
+  color: #fff;
+  font-size: 18px;
+}
+
+/* dashboard end */
