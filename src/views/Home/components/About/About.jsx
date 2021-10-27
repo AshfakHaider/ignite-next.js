@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/Image'
+import Image from 'next/image'
 import aboutImg1 from '../../../../assets/images/about-img-1.jpg'
 import aboutImg2 from '../../../../assets/images/about-img-2.jpg'
 import { Container } from 'react-bootstrap';

@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
-import Image from 'next/Image';
+import Image from 'next/image';
 
 const EventDetails = ({ event }) => {
 

@@ -1,8 +1,6 @@
-
-
 import React from 'react';
 import { Carousel, CarouselItem } from 'react-bootstrap'
-import Image from 'next/Image'
+import Image from 'next/image'
 
 // importing images
 import slider1 from '../../../../assets/images/vol-slide-small.png';

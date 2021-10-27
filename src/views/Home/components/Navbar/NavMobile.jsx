@@ -1,4 +1,4 @@
-import Image from 'next/Image'
+import Image from 'next/image'
 import { Button } from '@material-ui/core';
 import React, { useState ,useEffect} from 'react';
 import { Navbar, NavDropdown, Nav, } from 'react-bootstrap'

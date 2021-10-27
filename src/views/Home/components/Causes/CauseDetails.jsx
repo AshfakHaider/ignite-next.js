@@ -1,6 +1,6 @@
 import React from 'react';
 import { ProgressBar } from 'react-bootstrap';
-import Image from 'next/Image'
+import Image from 'next/image'
 
 const CauseDetails = ({ item }) => {
    const now = 60;
