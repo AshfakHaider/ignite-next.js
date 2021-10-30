@@ -37,11 +37,12 @@
   font-size: 40px;
   line-height: 48px;
   font-weight: 800;
+  margin: 5px 0px;
 
 }
 
 .global_description {
-  color: '#888888';
+  color: gray;
   font-size: 1rem;
   line-height: 24px;
 }
@@ -739,34 +740,34 @@
 
 /* subscibe end */
 
-/* dashboard start */
 
-.drawer-main {
-  background-image: url('../src/assets/images/minimal.jpg');
+.about-hero{
+  background-image: url(../src/assets/images/aboutbg.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
-}
-
-.dashboard-container {
-  background-image: url('../src/assets/images/minimal.jpg');
-  background-size: cover;
   background-repeat: no-repeat;
-  background-position: top center;
+  width: 100%;
+  height: calc(100vh - 100px);
 }
-
-.active-dashboard-menu {
-  background: #F4F4F4;
+.box{
+  padding: 50px 50px;
 }
-
-.mission-box {
-  background: linear-gradient(45deg, #FFB57C 30%, #28939D 70%);
-  padding: 50px 45px;
-  border-radius: 5px;
-  margin: 20px 15px 20px 15px;
-  color: #fff;
-  font-size: 18px;
+.donate_box{
+  background-color: #F2F2F2;
 }
+.scholarship_box{
+  background-color: #1B1C24;
+  color: white;
+}
+.adopt_box{
+  background-color: #ED8020;
+}
+.flex{
+  display: flex;
 
-/* dashboard end */
+}
+@media (max-width: 800px) {
+  .flex{
+    flex-direction: column;
+  }
+}
