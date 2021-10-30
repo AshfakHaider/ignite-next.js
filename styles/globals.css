@@ -92,6 +92,11 @@
   color: #000;
 }
 
+.navbar-links{
+  color:#fff;
+  text-decoration: none;
+}
+
 .nav-link:hover {
   border-bottom: 2px solid #F7941D;
 }
@@ -770,4 +775,37 @@
   .flex{
     flex-direction: column;
   }
+}
+
+/* career page start */
+.hero-career{
+  background-image:url('../src/assets/images/heroCareer.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: calc(100vh - 50px);
+}
+.inner-career{
+  padding-top: 150px;
+  text-align: center;
+  color: white;
+}
+.job-box{
+  background-color: #F2F2F2;
+  padding: 50px 50px;
+  margin: 20px 0px;
+  border: 1px solid #E5E5E5;
+  box-shadow: 0px 0px 10px #E5E5E5;
+  border-radius: 4px;
+}
+.apply-btn{
+  background-color: #ED8020;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
 }

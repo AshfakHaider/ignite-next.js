@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import { Button } from '@material-ui/core';
-import React, { useState ,useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import { Navbar, NavDropdown, Nav, } from 'react-bootstrap'
-
+import Link from "next/link";
 
 
 // import image
@@ -31,17 +31,24 @@ const NavigationBar = () => {
     return (
         <div className={`app-bar ${show && 'nav_black'}`} >
             <Navbar collapseOnSelect expand="lg"  >
-                <Navbar.Brand style={{ width:show?'80px':'100px', height: show?'65px':'100px', position:'relative',bottom:show?'13px': '0px'}} className='logo' href="#home">
+
+                <Navbar.Brand style={{ width: show ? '80px' : '100px', height: show ? '65px' : '100px', position: 'relative', bottom: show ? '13px' : '0px' }} className='logo' href="#home">
                     <Image
                         src={logo}
                         alt="logo"
-                      
+
                     />
                 </Navbar.Brand>
+
+
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav" style={{marginTop:show?'15px':'40px',padding:'0px'}}>
+                <Navbar.Collapse id="responsive-navbar-nav" style={{ marginTop: show ? '15px' : '40px', padding: '0px' }}>
                     <Nav className="ms-auto">
-                        <Nav.Link style={{ color: '#000' }}>Home</Nav.Link>
+                        <Nav.Link style={{ color: '#000' }}>
+                            <Link href='/'>
+                                <a className='navbar-links'>Home</a>
+                            </Link>
+                        </Nav.Link>
                         <NavDropdown style={{ color: '#000' }} title="Programs" id="collasible-nav-dropdown">
                             <NavDropdown.Item >Inclusive Development</NavDropdown.Item>
                             <NavDropdown.Item >Youth Development</NavDropdown.Item>
@@ -58,9 +65,22 @@ const NavigationBar = () => {
 
                         </NavDropdown>
                         <NavDropdown title="Ignite" id="collasible-nav-dropdown">
-                            <NavDropdown.Item>Team Ignite</NavDropdown.Item>
+
+                            <NavDropdown.Item>
+                                <Link href='/about'>
+                                    <a className='navbar-links'>About</a>
+                                </Link>
+                            </NavDropdown.Item>
+
+
+
+
                             <NavDropdown.Item>Ignite Globar</NavDropdown.Item>
-                            <NavDropdown.Item>Carrear</NavDropdown.Item>
+                            <NavDropdown.Item>
+                                <Link href='/career'>
+                                    <a className='navbar-links'>Career</a>
+                                </Link>
+                            </NavDropdown.Item>
                             <NavDropdown.Item>FAQ</NavDropdown.Item>
                             <NavDropdown.Item>Events</NavDropdown.Item>
                             <NavDropdown.Item>Contact Us</NavDropdown.Item>
