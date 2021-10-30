@@ -809,3 +809,16 @@
   font-weight: 700;
   letter-spacing: 1px;
 }
+.contact-hero{
+  background-image:url('../src/assets/images/contact-banner.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: calc(100vh - 100px);
+}
+
+.inner-contact{
+  padding-top: 200px;
+  text-align: center;
+}

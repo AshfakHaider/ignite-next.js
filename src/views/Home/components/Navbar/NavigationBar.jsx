@@ -72,10 +72,7 @@ const NavigationBar = () => {
                                 </Link>
                             </NavDropdown.Item>
 
-
-
-
-                            <NavDropdown.Item>Ignite Globar</NavDropdown.Item>
+                            <NavDropdown.Item>Ignite Global</NavDropdown.Item>
                             <NavDropdown.Item>
                                 <Link href='/career'>
                                     <a className='navbar-links'>Career</a>
@@ -83,7 +80,11 @@ const NavigationBar = () => {
                             </NavDropdown.Item>
                             <NavDropdown.Item>FAQ</NavDropdown.Item>
                             <NavDropdown.Item>Events</NavDropdown.Item>
-                            <NavDropdown.Item>Contact Us</NavDropdown.Item>
+                            <NavDropdown.Item>
+                                <Link href='/contact'>
+                                    <a className='navbar-links'>Contact Us</a>
+                                </Link>
+                            </NavDropdown.Item>
 
                         </NavDropdown>
                         <NavDropdown title="Updates" id="collasible-nav-dropdown">
