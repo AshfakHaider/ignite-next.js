@@ -864,3 +864,16 @@
   height: 100%;
   border-radius: 50%;
 }
+
+/* faq start */
+.hero-faq{
+  background-image: url('../src/assets/images/faq-banner.jpeg');
+  background-size: cover;;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: calc(100vh - 100px);
+}
+.inner-faq{
+  padding-top: 200px;
+  text-align: center;
+}
