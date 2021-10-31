@@ -1,7 +1,7 @@
-
-*{
+* {
   font-family: 'Zen Antique Soft', serif;
 }
+
 .minimal-heading {
   font-size: 14px;
   font-weight: 600;
@@ -30,7 +30,6 @@
   font-weight: 800;
   line-height: 5rem;
   font-size: 52px;
-  
 }
 
 .headings {
@@ -38,7 +37,6 @@
   line-height: 48px;
   font-weight: 800;
   margin: 5px 0px;
-
 }
 
 .global_description {
@@ -52,14 +50,12 @@
   line-height: 40px;
   font-weight: 700;
   margin: 20px 0px;
- 
 }
 
 .form-label {
   font-size: 17px;
   font-weight: 400;
   margin: 10px 0 5px 0;
-  
 }
 
 .submitBtn {
@@ -92,13 +88,13 @@
   color: #000;
 }
 
-.navbar-links{
-  color:#fff;
+.navbar-links {
+  color: #fff;
   text-decoration: none;
 }
 
-.navbar-links:hover{
-  color:#fff;
+.navbar-links:hover {
+  color: #fff;
   text-decoration: none;
 }
 
@@ -750,8 +746,7 @@
 
 /* subscibe end */
 
-
-.about-hero{
+.about-hero {
   background-image: url(../src/assets/images/aboutbg.jpg);
   background-size: cover;
   background-position: center center;
@@ -759,44 +754,52 @@
   width: 100%;
   height: calc(100vh - 100px);
 }
-.box{
+
+.box {
   padding: 50px 50px;
 }
-.donate_box{
+
+.donate_box {
   background-color: #F2F2F2;
 }
-.scholarship_box{
+
+.scholarship_box {
   background-color: #1B1C24;
   color: white;
 }
-.adopt_box{
+
+.adopt_box {
   background-color: #ED8020;
 }
-.flex{
-  display: flex;
 
+.flex {
+  display: flex;
 }
+
 @media (max-width: 800px) {
-  .flex{
+  .flex {
     flex-direction: column;
   }
 }
 
 /* career page start */
-.hero-career{
-  background-image:url('../src/assets/images/heroCareer.jpg');
+
+.hero-career {
+  background-image: url('../src/assets/images/heroCareer.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   width: 100%;
   height: calc(100vh - 50px);
 }
-.inner-career{
+
+.inner-career {
   padding-top: 150px;
   text-align: center;
   color: white;
 }
-.job-box{
+
+.job-box {
   background-color: #F2F2F2;
   padding: 50px 50px;
   margin: 20px 0px;
@@ -804,7 +807,8 @@
   box-shadow: 0px 0px 10px #E5E5E5;
   border-radius: 4px;
 }
-.apply-btn{
+
+.apply-btn {
   background-color: #ED8020;
   color: white;
   padding: 10px 20px;
@@ -814,8 +818,9 @@
   font-weight: 700;
   letter-spacing: 1px;
 }
-.contact-hero{
-  background-image:url('../src/assets/images/contact-banner.jpg');
+
+.contact-hero {
+  background-image: url('../src/assets/images/contact-banner.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -823,10 +828,39 @@
   height: calc(100vh - 100px);
 }
 
-.inner-contact{
+.inner-contact {
   padding-top: 200px;
   text-align: center;
 }
-.contact-box{
+
+.contact-box {
   text-align: right;
+}
+
+/* ignite global */
+
+.global-hero {
+  background-image: url('../src/assets/images/vol-slide-small.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: calc(100vh - 120px);
+}
+.inner-global {
+  padding-top: 200px;
+  text-align: center;
+  color: white;
+}
+.ceo-words-image{
+  text-align: center;
+  width: 250px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+.ceo-words-image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
 }

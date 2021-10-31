@@ -72,7 +72,11 @@ const NavigationBar = () => {
                                 </Link>
                             </NavDropdown.Item>
 
-                            <NavDropdown.Item>Ignite Global</NavDropdown.Item>
+                            <NavDropdown.Item>
+                                <Link href='/global'>
+                                    <a className='navbar-links'>Ignite Global</a>
+                                </Link>
+                            </NavDropdown.Item>
                             <NavDropdown.Item>
                                 <Link href='/career'>
                                     <a className='navbar-links'>Career</a>
