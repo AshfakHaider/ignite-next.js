@@ -895,3 +895,21 @@
   text-align: center;
   color: white;
 }
+.sponsor-btn{
+  padding: 12px 25px;
+  border: none;
+  margin-top: 10px;
+  background: #fcc005;
+  color: white;
+  font-size: 15px;
+  border-radius: 3px;
+}
+.know-hero{
+  background-image:url('../src/assets/images/sponsor.png');
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.know-inner{
+  padding:150px 0px;
+}
