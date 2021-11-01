@@ -108,7 +108,9 @@ const NavigationBar = () => {
                             variant='contained'
                             color='primary'
                         >
-                            Sponsor A Child
+                            <Link href='/sponsor'>
+                                <a className='navbar-links'>Sponsor A Child</a>
+                            </Link>
                         </Button>
                     </Nav>
                 </Navbar.Collapse>
