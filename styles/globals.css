@@ -913,9 +913,18 @@
 .know-inner{
   padding:150px 0px;
 }
-/* .gift{
-  background-image:url('../src/assets/images/Boy-with-books-in-Bangladesh-605x340.jpg');
-  width: 100%;
+
+
+/* events */
+
+.hero-events{
+  background-image: url('../src/assets/images/events.jpg');
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-} */
+  width: 100%;
+  height: calc(100vh - 100px);
+}
+.inner-events{
+  padding-top: 200px;
+}

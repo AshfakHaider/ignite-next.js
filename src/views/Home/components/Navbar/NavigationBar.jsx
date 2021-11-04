@@ -88,7 +88,11 @@ const NavigationBar = () => {
                                     <a className='navbar-links'>FAQ</a>
                                 </Link>
                             </NavDropdown.Item>
-                            <NavDropdown.Item>Events</NavDropdown.Item>
+                            <NavDropdown.Item>
+                                <Link href='/events'>
+                                    <a className='navbar-links'>Events</a>
+                                </Link>
+                            </NavDropdown.Item>
                             <NavDropdown.Item>
                                 <Link href='/contact'>
                                     <a className='navbar-links'>Contact Us</a>
