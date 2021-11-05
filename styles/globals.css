@@ -928,3 +928,12 @@
 .inner-events{
   padding-top: 200px;
 }
+
+.eventCard{
+  background-color: #F2F2F2;
+  /* padding: 50px 50px; */
+  margin: 20px 0px;
+  border: 1px solid #E5E5E5;
+  box-shadow: 0px 0px 10px #E5E5E5;
+  border-radius: 15px;
+}

@@ -1,6 +1,6 @@
 import { Grid } from '@material-ui/core';
 import React from 'react';
-import { Container, ProgressBar } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import CauseDetails from './CauseDetails';
 
 const Causes = ({ data }) => {
