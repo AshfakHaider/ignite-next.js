@@ -101,8 +101,16 @@ const NavigationBar = () => {
 
                         </NavDropdown>
                         <NavDropdown title="Updates" id="collasible-nav-dropdown">
-                            <NavDropdown.Item >News</NavDropdown.Item>
-                            <NavDropdown.Item >Blog</NavDropdown.Item>
+                            <NavDropdown.Item >
+                                <Link href='/news'>
+                                    <a className='navbar-links'>News</a>
+                                </Link>
+                            </NavDropdown.Item>
+                            <NavDropdown.Item >
+                                <Link href='/blog'>
+                                    <a className='navbar-links'>Blogs</a>
+                                </Link>
+                            </NavDropdown.Item>
 
                         </NavDropdown>
                         <Nav.Link

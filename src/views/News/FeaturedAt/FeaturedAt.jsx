@@ -2,6 +2,7 @@ import React from 'react';
 import Grid from '@mui/material/Grid';
 import Image from 'next/image';
 import featured from '../../../assets/images/featured.jpg';
+import Link from "next/link";
 
 const FeaturedAt = () => {
     return (
@@ -15,6 +16,9 @@ const FeaturedAt = () => {
                             <div className='featured-at-card-content' style={{ padding: '15px 20px' }}>
                                 <h3>The New York Times</h3>
                                 <p>The New York Times is a major American business-focused magazine that is published every weekday.</p>
+                                <Link href='/'>
+                                    <a href="">Read More</a>
+                                </Link>
                             </div>
                         </div>
                     </Grid>
@@ -24,6 +28,9 @@ const FeaturedAt = () => {
                             <div className='featured-at-card-content' style={{ padding: '15px 20px' }}>
                                 <h3>The New York Times</h3>
                                 <p>The New York Times is a major American business-focused magazine that is published every weekday.</p>
+                                <Link href='/'>
+                                    <a href="">Read More</a>
+                                </Link>
                             </div>
                         </div>
                     </Grid>
@@ -33,6 +40,9 @@ const FeaturedAt = () => {
                             <div className='featured-at-card-content' style={{ padding: '15px 20px' }}>
                                 <h3>The New York Times</h3>
                                 <p>The New York Times is a major American business-focused magazine that is published every weekday.</p>
+                                <Link href='/'>
+                                    <a href="">Read More</a>
+                                </Link>
                             </div>
                         </div>
                     </Grid>
@@ -42,6 +52,9 @@ const FeaturedAt = () => {
                             <div className='featured-at-card-content' style={{ padding: '15px 20px' }}>
                                 <h3>The New York Times</h3>
                                 <p>The New York Times is a major American business-focused magazine that is published every weekday.</p>
+                                <Link href='/'>
+                                    <a href="">Read More</a>
+                                </Link>
                             </div>
                         </div>
                     </Grid>
@@ -51,6 +64,9 @@ const FeaturedAt = () => {
                             <div className='featured-at-card-content' style={{ padding: '15px 20px' }}>
                                 <h3>The New York Times</h3>
                                 <p>The New York Times is a major American business-focused magazine that is published every weekday.</p>
+                                <Link href='/'>
+                                    <a href="">Read More</a>
+                                </Link>
                             </div>
                         </div>
                     </Grid>
@@ -60,6 +76,9 @@ const FeaturedAt = () => {
                             <div className='featured-at-card-content' style={{ padding: '15px 20px' }}>
                                 <h3>The New York Times</h3>
                                 <p>The New York Times is a major American business-focused magazine that is published every weekday.</p>
+                                <Link href='/'>
+                                    <a href="">Read More</a>
+                                </Link>
                             </div>
                         </div>
                     </Grid>
