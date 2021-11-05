@@ -929,11 +929,28 @@
   padding-top: 200px;
 }
 
-.eventCard{
+.eventCard ,.featured-at-card{
   background-color: #F2F2F2;
   /* padding: 50px 50px; */
   margin: 20px 0px;
   border: 1px solid #E5E5E5;
   box-shadow: 0px 0px 10px #E5E5E5;
   border-radius: 15px;
+}
+
+
+/* news-section start */
+
+.hero-news{
+  background-image: url('../src/assets/images/news.jpeg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: calc(100vh - 100px);
+}
+.news-inner{
+  padding-top: 200px;
+  text-align: center;
+  color: white;
 }
