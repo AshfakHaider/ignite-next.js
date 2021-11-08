@@ -14,7 +14,7 @@ import two from '../../../assets/images/two.png'
 import three from '../../../assets/images/three.png'
 import four from '../../../assets/images/four.png'
 import five from '../../../assets/images/five.png'
-import six from '../../../assets/images/six.png'
+import six from '../../../assets/images/six.webp'
 
 import event1 from '../../../assets/images/event-1.jpg'
 

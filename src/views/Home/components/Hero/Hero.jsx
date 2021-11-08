@@ -3,8 +3,8 @@ import { Carousel, CarouselItem } from 'react-bootstrap'
 import Image from 'next/image'
 
 // importing images
-import slider1 from '../../../../assets/images/vol-slide-small.png';
-import slider2 from '../../../../assets/images/shabolombi-slide.jpg';
+import slider1 from '../../../../assets/images/vol-slide-small.webp';
+import slider2 from '../../../../assets/images/shabolombi-slide.webp';
 
 
 const Hero = () => {
