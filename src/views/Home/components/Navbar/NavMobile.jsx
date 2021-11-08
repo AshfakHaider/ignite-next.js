@@ -5,7 +5,7 @@ import { Navbar, NavDropdown, Nav, } from 'react-bootstrap'
 
 // import image
 
-import logo from '../../../../assets/images/ignite_youth_foundation_logo.png'
+import logo from '../../../../assets/images/ignite_youth_foundation_logo.webp'
 
 
 

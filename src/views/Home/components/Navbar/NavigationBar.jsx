@@ -7,7 +7,7 @@ import Link from "next/link";
 
 // import image
 
-import logo from '../../../../assets/images/ignite_youth_foundation_logo.png'
+import logo from '../../../../assets/images/ignite_youth_foundation_logo.webp'
 
 
 
