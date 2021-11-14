@@ -33,11 +33,15 @@ const NavigationBar = () => {
             <Navbar collapseOnSelect expand="lg"  >
 
                 <Navbar.Brand style={{ width: show ? '80px' : '100px', height: show ? '65px' : '100px', position: 'relative', bottom: show ? '13px' : '0px' }} className='logo' href="#home">
-                    <Image
-                        src={logo}
-                        alt="logo"
+                    <Link href="/">
+                        <a>
+                            <Image
+                                src={logo}
+                                alt="logo"
+                            />
+                        </a>
+                    </Link>
 
-                    />
                 </Navbar.Brand>
 
 
@@ -93,6 +97,7 @@ const NavigationBar = () => {
                                     <a className='navbar-links'>Events</a>
                                 </Link>
                             </NavDropdown.Item>
+
                             <NavDropdown.Item>
                                 <Link href='/contact'>
                                     <a className='navbar-links'>Contact Us</a>
@@ -101,11 +106,15 @@ const NavigationBar = () => {
 
                         </NavDropdown>
                         <NavDropdown title="Updates" id="collasible-nav-dropdown">
+
                             <NavDropdown.Item >
                                 <Link href='/news'>
-                                    <a className='navbar-links'>News</a>
+                                    <a className='navbar-links'>
+                                        News
+                                    </a>
                                 </Link>
                             </NavDropdown.Item>
+
                             <NavDropdown.Item >
                                 <Link href='/blog'>
                                     <a className='navbar-links'>Blogs</a>
